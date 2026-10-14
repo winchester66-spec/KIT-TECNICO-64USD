@@ -15,7 +15,7 @@ The Tech Toolkit 64GB 2026 is the definitive package for PC repair technicians a
 - **Target machines:** Windows 10 and Windows 11, 64-bit. Many tools also work on Windows 7.
 
 ## Pricing and delivery
-- **Price:** USD 12 (one-time payment, USD checkout), lifetime access, unlimited machines, commercial use allowed.
+- **Price:** USD 7 (one-time payment, USD checkout), lifetime access, unlimited machines, commercial use allowed.
 - **Delivery:** 100% digital, instant download link by e-mail after payment confirmation.
 
 ## Checkout

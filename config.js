@@ -16,7 +16,7 @@
 export const SITE = {
   // ---- Product & price -------------------------------------------------
   productName: 'Tech Toolkit 64GB 2026',
-  price: 12,                    // number only
+  price: 7,                     // number only
   currency: 'USD',
   currencySymbol: '$',
   compareAtPrice: null,         // e.g. 39 — leave null unless it is a real previous price
@@ -43,5 +43,5 @@ export const SITE = {
   showUsbRecommendation: true,
 };
 
-/** Convenience string used across the page and the chat: "$12" */
+/** Convenience string used across the page and the chat: "$7" */
 export const PRICE_LABEL = `${SITE.currencySymbol}${SITE.price}`;

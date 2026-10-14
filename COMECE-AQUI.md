@@ -1,6 +1,6 @@
 # COMECE AQUI — versão em inglês para o mercado americano
 
-**Produto:** Tech Toolkit 64GB 2026 · **Preço:** US$ 12 (pagamento único) · **Pasta do site:** `/site`
+**Produto:** Tech Toolkit 64GB 2026 · **Preço:** US$ 7 (pagamento único) · **Pasta do site:** `/site`
 
 ---
 
@@ -39,7 +39,7 @@ O site novo já vem com `.gitignore` configurado para nunca mais deixar isso aco
 | Item | Status |
 |---|---|
 | Página de vendas traduzida e **adaptada para o público americano** (novo headline, seção de dores, comparativo "manual vs. ferramenta", oferta, FAQ) | pronto |
-| Preço **US$ 12** em todos os botões, na tabela e no chat | pronto |
+| Preço **US$ 7** em todos os botões, na tabela e no chat | pronto |
 | Chat "Ana" traduzido + **base de conhecimento com 117 intenções em inglês** | pronto |
 | Imagem de caixa 3D nova, com texto em inglês (`assets/techtoolkit-box.png`) | pronto |
 | SEO: title, meta description, Open Graph, dados estruturados (JSON-LD), `robots.txt`, `sitemap.xml` | pronto |
@@ -60,7 +60,7 @@ supportEmail: 'support@yourdomain.com',         // 2) seu e-mail de suporte real
 guaranteeDays: null,                            // 3) null = sem garantia exibida | 7 ou 30 = mostra "7-day money-back"
 ```
 
-**Sobre o checkout:** o link atual do Kiwify cobra em **reais** e não serve para vender a US$ 12 para americanos. Crie um checkout em dólar em uma destas plataformas e cole o link em `checkoutUrl`:
+**Sobre o checkout:** o link atual do Kiwify cobra em **reais** e não serve para vender a US$ 7 para americanos. Crie um checkout em dólar em uma destas plataformas e cole o link em `checkoutUrl`:
 
 - **Stripe Payment Link** (mais profissional, cartão + Apple/Google Pay, resolve imposto nos EUA)
 - **Gumroad / Lemon Squeezy / Payhip** (mais simples, entrega digital automática + Merchant of Record, eles cuidam de sales tax/VAT)
