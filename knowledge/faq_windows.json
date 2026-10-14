@@ -1,0 +1,86 @@
+[
+  {
+    "id": "windows11",
+    "title": "Windows 11",
+    "keywords": ["windows 11", "win11", "windows eleven"],
+    "patterns": [
+      "does it work on windows 11", "windows 11 support", "win 11", "windows 11 compatibility",
+      "does it support the latest windows"
+    ],
+    "response": "Yes. Windows 11 is fully supported — the launcher, the driver panel and the updater all work there, and the tweaks list includes Windows 11 specific items like the classic context menu.",
+    "followup": "Anything else about your machines?",
+    "priority": 3
+  },
+  {
+    "id": "windows10",
+    "title": "Windows 10",
+    "keywords": ["windows 10", "win10", "windows ten"],
+    "patterns": [
+      "does it work on windows 10", "windows 10 support", "win 10", "windows 10 compatibility",
+      "will it work on an older windows 10 pc"
+    ],
+    "response": "Yes — Windows 10 is one of the main targets. Program installation and offline drivers behave the same way as on Windows 11, including on machines that have been running for years.",
+    "followup": "Do you also service older Windows versions?",
+    "priority": 2
+  },
+  {
+    "id": "windows7",
+    "title": "Windows 7",
+    "keywords": ["windows 7", "win7", "old windows", "legacy"],
+    "patterns": [
+      "does it work on windows 7", "windows 7 support", "win 7", "legacy windows",
+      "i still get windows 7 machines"
+    ],
+    "response": "Many tools in the package still run on Windows 7, which helps with older machines that come in for repair, but the full flow is designed and tested for Windows 10 and 11. Treat Windows 7 support as best-effort rather than guaranteed.",
+    "followup": "Anything else about the machines you service?",
+    "priority": 2
+  },
+  {
+    "id": "laptop",
+    "title": "Laptops",
+    "keywords": ["laptop", "notebook", "portable", "netbook"],
+    "patterns": [
+      "does it work on laptops", "notebook support", "will it work on my laptop",
+      "does it handle laptop drivers", "gaming laptops"
+    ],
+    "response": "Yes — laptops are the most common case for this toolkit. The driver panel handles the usual problem areas: Wi-Fi, Bluetooth, touchpad, audio and power management that Windows does not cover on its own.",
+    "followup": "Do you want to check the driver details?",
+    "priority": 2
+  },
+  {
+    "id": "desktop",
+    "title": "Desktops and custom builds",
+    "keywords": ["desktop", "custom built", "tower", "pc build", "whitebox"],
+    "patterns": [
+      "does it work on desktops", "custom built pc", "home built computer", "tower pc",
+      "does it cover motherboard drivers", "b450", "b550 motherboard"
+    ],
+    "response": "Desktops and custom builds are well covered, mainboards included. The driver panel reads the chipset and controller IDs, so it does not rely on the brand name of the machine.",
+    "followup": "Anything else you want to confirm?",
+    "priority": 2
+  },
+  {
+    "id": "general_windows",
+    "title": "Which Windows versions overall",
+    "keywords": ["which windows", "supported versions", "windows versions", "64 bit"],
+    "patterns": [
+      "which windows versions", "what windows do you support", "does it support 32 bit",
+      "is it for 64 bit only", "windows version required"
+    ],
+    "response": "Primary support is **Windows 10 and Windows 11, 64-bit**. Most 32-bit installers are also present, and a number of tools still work on Windows 7. When in doubt about a specific machine, ask us before buying — {{SUPPORT_EMAIL}}.",
+    "followup": "Would you like the purchase link?",
+    "priority": 2
+  },
+  {
+    "id": "antivirus_warning",
+    "title": "Antivirus warnings",
+    "keywords": ["antivirus", "false positive", "defender", "blocked", "flagged"],
+    "patterns": [
+      "my antivirus flagged it", "windows defender blocked it", "false positive",
+      "is it a virus", "why does my antivirus complain", "installer was quarantined"
+    ],
+    "response": "Bulk installers and driver packs are a classic false-positive trigger, because they run many setup files in sequence. If Windows Defender or your antivirus quarantines something during a run, restore it from the quarantine list and add an exception for the toolkit folder. The files come from the vendors' own installers.",
+    "followup": "Do you want the exact steps to add an exception?",
+    "priority": 2
+  }
+]

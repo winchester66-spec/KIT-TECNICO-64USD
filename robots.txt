@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://uanderson-ux.github.io/kittecnico/sitemap.xml

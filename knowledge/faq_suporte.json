@@ -1,0 +1,74 @@
+[
+  {
+    "id": "has_support",
+    "title": "Is support included",
+    "keywords": ["support", "help after buying", "customer service", "assistance"],
+    "patterns": [
+      "do you offer support", "is there support after buying", "can i get help",
+      "do you answer questions", "customer support", "will someone help me"
+    ],
+    "response": "Yes. Support covers download and access issues, extracting files, preparing the USB drive and questions about how to run the toolkit. Write to {{SUPPORT_EMAIL}} and include the e-mail you used at checkout so we can look you up quickly.",
+    "followup": "Would you like to send a question to support now?",
+    "priority": 3
+  },
+  {
+    "id": "contact",
+    "title": "How to contact us",
+    "keywords": ["contact", "email", "reach you", "talk to a human", "phone"],
+    "patterns": [
+      "how do i contact you", "what is your email", "email address", "can i talk to a human",
+      "phone number", "where do i send questions", "contact support"
+    ],
+    "response": "E-mail is the fastest route: **{{SUPPORT_EMAIL}}**. Support is human, not a ticket robot, and replies usually come back within one business day. For pre-sale questions, I can answer most of them here too.",
+    "followup": "Anything I can clear up right now?",
+    "priority": 3
+  },
+  {
+    "id": "company",
+    "title": "Who makes it",
+    "keywords": ["who are you", "company", "business", "who makes it", "legitimate"],
+    "patterns": [
+      "who makes this", "what company is this", "is this a real company", "who is behind it",
+      "are you guys legit", "company information"
+    ],
+    "response": "The toolkit is produced and supported by KitTecnico Pro, a team that works in PC repair and IT maintenance. The package has been sold and used by technicians in Brazil and Portugal for years; we are now bringing it to the US market.",
+    "followup": "Would you like to see the interface before buying?",
+    "priority": 2
+  },
+  {
+    "id": "receipt",
+    "title": "Receipt and invoice",
+    "keywords": ["receipt", "invoice", "proof of purchase", "document", "tax"],
+    "patterns": [
+      "do i get a receipt", "can i get an invoice", "proof of purchase", "do you provide a document",
+      "i need a receipt for my business", "tax invoice"
+    ],
+    "response": "Your checkout confirmation e-mail works as your receipt. If you need an invoice with your business details, email {{SUPPORT_EMAIL}} with the information to include and we will send one over.",
+    "followup": "Anything else about the purchase?",
+    "priority": 2
+  },
+  {
+    "id": "privacy",
+    "title": "Privacy and data",
+    "keywords": ["privacy", "my data", "gdpr", "personal information", "security"],
+    "patterns": [
+      "how do you handle my data", "is my information safe", "privacy policy", "gdpr",
+      "what do you do with my email", "do you sell my data"
+    ],
+    "response": "Your e-mail is used to deliver your purchase and to provide support afterwards. Payment details are handled entirely by the checkout provider and never reach us. We do not sell or share buyer data with third parties for marketing.",
+    "followup": "Anything else before you decide?",
+    "priority": 2
+  },
+  {
+    "id": "pre_sale_question",
+    "title": "Pre-sale questions",
+    "keywords": ["before i buy", "question before buying", "not sure", "need to know"],
+    "patterns": [
+      "i have a question before buying", "i am not sure yet", "can you help me decide",
+      "i need to check something first", "question about buying"
+    ],
+    "response": "Ask away — that is what I am here for. The most common pre-sale checks are Windows version, machine brands, the USB drive size and whether the interface language works for you.",
+    "followup": "Which of those would you like to go through?",
+    "priority": 2
+  }
+]

@@ -1,0 +1,73 @@
+[
+  {
+    "id": "how_download",
+    "title": "How to download",
+    "keywords": [
+      "download",
+      "how to download",
+      "get the files",
+      "extract"
+    ],
+    "patterns": [
+      "how do i download",
+      "how to download the files",
+      "where do i get the files",
+      "how do i get started after buying",
+      "download steps",
+      "first download"
+    ],
+    "response": "After payment: open the e-mail, click the download link, save the archive to a folder with enough free space, then extract it (7-Zip or WinRAR, both free) and copy the extracted folder to your USB drive. The members area has a video walking through it.",
+    "followup": "Want the checklist for preparing the drive?",
+    "priority": 2
+  },
+  {
+    "id": "download_speed",
+    "title": "How long the download takes",
+    "keywords": [
+      "bandwidth",
+      "download duration",
+      "download take",
+      "download time",
+      "how long does the download take",
+      "how long download",
+      "slow connection",
+      "speed"
+    ],
+    "patterns": [
+      "can i pause the download",
+      "download speed",
+      "how big is the download file",
+      "how long does it take to download",
+      "how long does the download take",
+      "how long will the download take",
+      "is the download long",
+      "slow internet",
+      "will it take hours"
+    ],
+    "response": "It depends on your connection, and cloud drives let you pause and resume. On a typical 100 Mbps business line it takes well under an hour; on a slower link, start it and come back later. Downloads are unlimited and you can re-download whenever you want.",
+    "followup": "Any other download questions?",
+    "priority": 3
+  },
+  {
+    "id": "copy_to_usb",
+    "title": "Copying to the USB drive",
+    "keywords": [
+      "copy to usb",
+      "put on usb",
+      "flash drive",
+      "format usb",
+      "prepare usb"
+    ],
+    "patterns": [
+      "how do i put it on a usb",
+      "how do i copy the files",
+      "do i need to format the usb",
+      "how do i prepare the usb drive",
+      "which file system",
+      "exfat or ntfs"
+    ],
+    "response": "Use a {{USB_SIZE}} USB 3.0 drive formatted as exFAT or NTFS, then copy the whole extracted folder to it — keeping the folder structure intact matters. The video tutorial in the members area shows this step by step.",
+    "followup": "Should I also explain how the toolkit runs from the drive?",
+    "priority": 2
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "buy_now",
+    "title": "How to buy",
+    "keywords": ["buy", "purchase", "link", "order", "checkout", "subscribe"],
+    "patterns": [
+      "how do i buy", "where can i buy", "purchase link", "i want to buy", "give me the link",
+      "how do i order", "checkout link", "buy the toolkit", "i want this", "ready to buy"
+    ],
+    "response": "Ready when you are! Click the buy button on this page (or use this link: {{CHECKOUT_LINK}}) to open the secure checkout. Right after the payment is confirmed you get an e-mail with your download links.",
+    "followup": "Anything you want to confirm before you check out?",
+    "priority": 3
+  },
+  {
+    "id": "checkout_error",
+    "title": "Error at checkout",
+    "keywords": ["error", "checkout problem", "page error", "won't load", "failed"],
+    "patterns": [
+      "error at checkout", "the checkout page failed", "checkout is not working", "i get an error",
+      "the page keeps loading", "cant complete the purchase", "payment page error", "checkout crashed"
+    ],
+    "response": "That is usually a browser or connection hiccup. Try: refresh the checkout page, switch to another browser or an incognito window, and disable any content blockers for the page. If it still fails, email {{SUPPORT_EMAIL}} and we will send you a direct link.",
+    "followup": "Want me to note your e-mail for follow-up?",
+    "priority": 2
+  },
+  {
+    "id": "payment_declined",
+    "title": "Payment declined",
+    "keywords": ["declined", "refused", "card rejected", "not authorized", "bank blocked"],
+    "patterns": [
+      "my card was declined", "payment declined", "card was refused", "payment was not approved",
+      "bank blocked my card", "card rejected", "why was my payment declined", "payment failed"
+    ],
+    "response": "Declines are usually a bank-side protection on international or online charges. Call your bank and authorize the transaction, or try another card. Some buyers also find a wallet option (like PayPal) at checkout, which can bypass the card issuer's block.",
+    "followup": "Would you like to try the checkout link again?",
+    "priority": 2
+  },
+  {
+    "id": "payment_approved",
+    "title": "Payment approved",
+    "keywords": ["approved", "paid", "confirm", "receipt", "next step"],
+    "patterns": [
+      "i paid", "payment approved", "i already bought it", "where is my download", "i paid and got nothing",
+      "did my payment go through", "payment confirmed"
+    ],
+    "response": "As soon as the payment is approved, the access e-mail is sent automatically to the address you used at checkout. Check your inbox, then the spam and promotions folders. If it has not arrived within about 15 minutes, email {{SUPPORT_EMAIL}} with your order details and we will resend it.",
+    "followup": "Do you want help preparing the USB drive once the download arrives?",
+    "priority": 3
+  },
+  {
+    "id": "duplicate_charge",
+    "title": "Charged twice",
+    "keywords": ["charged twice", "duplicate", "double charge", "two charges", "refund extra"],
+    "patterns": [
+      "i was charged twice", "duplicate charge", "double payment", "two charges on my card",
+      "i paid two times", "extra charge"
+    ],
+    "response": "Sorry about that — it occasionally happens when a payment is retried. Send the transaction details to {{SUPPORT_EMAIL}} and we will have the extra charge refunded through the processor. Nothing is kept that you did not intend to pay.",
+    "followup": "Would you like to send us the details now?",
+    "priority": 2
+  },
+  {
+    "id": "international_buy",
+    "title": "Buying from another country",
+    "keywords": ["buy from abroad", "international card", "foreign", "overseas"],
+    "patterns": [
+      "can i buy from another country", "international purchase", "i live outside the us",
+      "can i use an international card", "buy from canada", "buy from europe", "overseas purchase"
+    ],
+    "response": "Yes. The toolkit is a digital product, so you can buy and download it from anywhere. Checkout is in USD at {{PRICE}}, and an international card or a PayPal-style wallet both work.",
+    "followup": "Would you like the checkout link?",
+    "priority": 1
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "usage_license",
+    "title": "Licence terms",
+    "keywords": ["license", "licence", "terms", "legal", "allowed"],
+    "patterns": [
+      "what is the license", "licence terms", "how can i use it", "is it legal to use",
+      "can i resell it", "can i share it with my team", "terms of use"
+    ],
+    "response": "The toolkit is a collection of installers for freely distributed, trial or vendor-supplied software, plus our own automation tools. You get a licence to use it in your own business; you cannot resell, rebrand or redistribute the package itself. Licensing each program for your client works the normal way.",
+    "followup": "Do you have a specific use case in mind?",
+    "priority": 2
+  },
+  {
+    "id": "commercial_use",
+    "title": "Commercial use",
+    "keywords": ["commercial", "business use", "my shop", "clients", "for work"],
+    "patterns": [
+      "can i use it commercially", "is it allowed in my shop", "commercial licence",
+      "can i use it on client computers", "business use", "i run a repair business"
+    ],
+    "response": "Yes — it is built for commercial bench work in repair shops, IT support companies and freelance technician work. No per-client or per-machine licensing is required from us.",
+    "followup": "Would you like the purchase link?",
+    "priority": 3
+  },
+  {
+    "id": "personal_use",
+    "title": "Personal use",
+    "keywords": ["personal", "home use", "my own pc", "family"],
+    "patterns": [
+      "can i use it for personal use", "just for my own computer", "home use",
+      "for my family computers", "i am not a professional"
+    ],
+    "response": "Absolutely. Plenty of buyers use it for their own machines, family PCs and side jobs. If it saves you one trip to a repair shop, it has already paid for itself.",
+    "followup": "Anything else you'd like to check?",
+    "priority": 2
+  },
+  {
+    "id": "how_many_machines",
+    "title": "Machine limit",
+    "keywords": ["how many machines", "limit", "unlimited", "activation limit"],
+    "patterns": [
+      "how many machines can i install it on", "is there an activation limit",
+      "can i use it on unlimited computers", "machine limit", "does it lock to one pc"
+    ],
+    "response": "There is no machine limit and no activation. The toolkit lives on your USB drive, so you use it on as many machines as you want, for as long as you want.",
+    "followup": "Want the purchase link?",
+    "priority": 2
+  },
+  {
+    "id": "language",
+    "title": "Interface language",
+    "keywords": ["language", "english", "portuguese", "spanish", "translation"],
+    "patterns": [
+      "what language is it in", "is the interface in english", "is there an english version",
+      "does it support other languages", "is it in spanish", "the interface language"
+    ],
+    "response": "Being straight with you: the automation panel's interface labels are in **Portuguese** in the current build — the screenshots on this page show exactly what you get. Program names, Windows itself and everything you install stay in your client's language. If the interface language is a dealbreaker, email {{SUPPORT_EMAIL}} before buying and we will show you the panel in detail.",
+    "followup": "Would you like to see the interface screenshots?",
+    "priority": 3
+  }
+]

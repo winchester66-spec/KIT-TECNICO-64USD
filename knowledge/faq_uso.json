@@ -1,0 +1,74 @@
+[
+  {
+    "id": "who_is_it_for",
+    "title": "Who it is for",
+    "keywords": ["who is it for", "for me", "target", "ideal for", "profession"],
+    "patterns": [
+      "who is this for", "is it for me", "who should buy this", "is this for technicians",
+      "i fix computers", "i run a computer shop", "is it for hobbyists"
+    ],
+    "response": "It is made for PC repair shops, IT support techs, freelancers and anyone who reinstalls Windows regularly — including people who do it as a side job or for their own machines. If you touch more than a couple of PCs a month, it pays for itself.",
+    "followup": "Would you like to see what's included?",
+    "priority": 2
+  },
+  {
+    "id": "use_cases",
+    "title": "How people use it",
+    "keywords": ["use cases", "how it is used", "in practice", "workflow", "example"],
+    "patterns": [
+      "how do people use it", "give me an example", "in practice how does it work",
+      "what is the workflow", "day to day use", "show me a scenario"
+    ],
+    "response": "Typical run: the machine comes in, you format it and install Windows, plug in the toolkit USB, restore connectivity with the offline drivers, then tick the programs the client needs and start the queue. While it installs, you work on the next machine and come back to a ready PC.",
+    "followup": "Do you want the checklist version of that?",
+    "priority": 2
+  },
+  {
+    "id": "benefits",
+    "title": "Main benefits",
+    "keywords": ["benefits", "why buy", "advantages", "value", "what do i gain"],
+    "patterns": [
+      "what are the benefits", "why should i buy this", "what do i gain", "advantages",
+      "why is it worth it", "the main benefits"
+    ],
+    "response": "Four gains: about an hour reclaimed per machine, drivers that work with no internet, installers that never go stale thanks to the updater, and a predictable setup order that reduces support calls from clients afterwards.",
+    "followup": "Would you like the purchase link?",
+    "priority": 2
+  },
+  {
+    "id": "revenue",
+    "title": "Does it pay for itself",
+    "keywords": ["pay for itself", "roi", "earn more", "more clients", "profit"],
+    "patterns": [
+      "will it pay for itself", "how does it increase my income", "can i charge more",
+      "does it help me earn more", "return on investment", "how many jobs to break even"
+    ],
+    "response": "One charge of {{PRICE}} against even a single service call covers it several times over. After that, every hour you do not spend waiting on installers is time you can bill elsewhere or use to take one more machine that day.",
+    "followup": "Shall I send you the purchase link?",
+    "priority": 2
+  },
+  {
+    "id": "free_alternative",
+    "title": "Why not just build it myself",
+    "keywords": ["build myself", "free", "diy", "why pay", "free alternative"],
+    "patterns": [
+      "why not build it myself", "can i not do this for free", "is there a free option",
+      "why should i pay for free software", "diy driver pack", "i can download these myself"
+    ],
+    "response": "You can — and it costs days of collecting installers, testing them, organising a folder structure and hunting drivers you only discover are missing while a client waits. The toolkit is that work already done, tested and kept current, for {{PRICE}} once.",
+    "followup": "Would you like to compare what you get against doing it manually?",
+    "priority": 2
+  },
+  {
+    "id": "quality",
+    "title": "How it is tested",
+    "keywords": ["quality", "tested", "reliable", "verified", "maintained"],
+    "patterns": [
+      "is it well made", "how is it tested", "is everything verified", "is it maintained",
+      "do you check the files", "quality of the package"
+    ],
+    "response": "Every installer is checked and organised by category, and the package is maintained continuously — new versions, new titles and fixes come through our own updater rather than being left as-is after release.",
+    "followup": "Anything else you'd like to verify?",
+    "priority": 1
+  }
+]

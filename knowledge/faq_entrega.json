@@ -1,0 +1,167 @@
+[
+  {
+    "id": "how_receive",
+    "title": "How the product is delivered",
+    "keywords": [
+      "delivery",
+      "how do i get it",
+      "receive",
+      "shipping",
+      "send"
+    ],
+    "patterns": [
+      "how do i receive it",
+      "how is it delivered",
+      "do you ship it",
+      "is there shipping",
+      "do i get a usb in the mail",
+      "how do i get the files",
+      "delivery method",
+      "how will i get it"
+    ],
+    "response": "It is 100% digital — nothing is shipped. Right after payment you receive an e-mail with the download links and your access details. You download the files, extract them and copy the folder to your USB drive.",
+    "followup": "Do you want the exact steps to prepare the drive?",
+    "priority": 3
+  },
+  {
+    "id": "digital_delivery",
+    "title": "Digital download",
+    "keywords": [
+      "digital",
+      "download",
+      "no shipping",
+      "online",
+      "instant"
+    ],
+    "patterns": [
+      "is it digital",
+      "is it a download",
+      "no physical product",
+      "is it a physical kit",
+      "do i get a usb drive with it",
+      "instant access",
+      "is it online"
+    ],
+    "response": "Yes — it is a digital download, not a physical USB drive. The packaging is designed so you can build your own {{USB_SIZE}} drive from the files in a few minutes. That also means no shipping cost, no customs and no waiting.",
+    "followup": "Should I send you the guide to building the drive?",
+    "priority": 3
+  },
+  {
+    "id": "delivery_time",
+    "title": "How long delivery takes",
+    "keywords": [
+      "delivery time",
+      "how fast",
+      "how long",
+      "how soon",
+      "immediate",
+      "when",
+      "when do i get",
+      "when do i receive"
+    ],
+    "patterns": [
+      "how fast is the delivery",
+      "how long does delivery take",
+      "how long until i receive it",
+      "how soon do i get it",
+      "instant delivery",
+      "is it immediate",
+      "same day",
+      "when do i get access",
+      "when do i get the files",
+      "when do i receive the files",
+      "when will i get the download"
+    ],
+    "response": "Delivery is automatic. As soon as the payment is approved, the access e-mail goes out — usually within a couple of minutes. If it is not in your inbox, check spam and promotions first; if more than 15 minutes pass, email {{SUPPORT_EMAIL}}.",
+    "followup": "Would you like the purchase link?",
+    "priority": 3
+  },
+  {
+    "id": "email_delivery",
+    "title": "Delivery e-mail",
+    "keywords": [
+      "email",
+      "didn't arrive",
+      "spam",
+      "inbox",
+      "confirmation"
+    ],
+    "patterns": [
+      "i did not get the email",
+      "the email did not arrive",
+      "check spam",
+      "no confirmation email",
+      "email went to junk",
+      "i used the wrong email",
+      "resend the email"
+    ],
+    "response": "The links are sent only to the e-mail used at checkout. Check spam, junk and promotions folders and search for the product name. Typed the address wrong or still nothing after 15 minutes? Email {{SUPPORT_EMAIL}} with your order details and we will resend the access.",
+    "followup": "Do you want me to note this for support follow-up?",
+    "priority": 2
+  },
+  {
+    "id": "download_links",
+    "title": "Download links",
+    "keywords": [
+      "download links",
+      "where are the files",
+      "google drive",
+      "links"
+    ],
+    "patterns": [
+      "where are the download links",
+      "where do i download",
+      "how do i download the files",
+      "the links in the email",
+      "download page",
+      "direct download"
+    ],
+    "response": "Your e-mail contains the links to the download package plus access to the members area, where the files are organised and the setup tutorials live. If a link looks expired, email {{SUPPORT_EMAIL}} and we will issue a fresh one.",
+    "followup": "Do you want help with extraction and copying to the USB?",
+    "priority": 2
+  },
+  {
+    "id": "download_error",
+    "title": "Download problems",
+    "keywords": [
+      "download failed",
+      "download error",
+      "slow",
+      "interrupted",
+      "link broken"
+    ],
+    "patterns": [
+      "the download failed",
+      "download keeps stopping",
+      "the link does not work",
+      "download error",
+      "download is too slow",
+      "download interrupted",
+      "the file is corrupted"
+    ],
+    "response": "Try downloading in an incognito window or another browser, and use a stable connection. Most cloud drives let you pause and resume, so a dropped connection is not a problem. If the link itself is dead, email {{SUPPORT_EMAIL}} for a new one.",
+    "followup": "Anything else about the download?",
+    "priority": 2
+  },
+  {
+    "id": "members_area",
+    "title": "Members area",
+    "keywords": [
+      "members area",
+      "dashboard",
+      "account",
+      "files area"
+    ],
+    "patterns": [
+      "is there a members area",
+      "where is my dashboard",
+      "how do i access the files",
+      "account area",
+      "do i get an account",
+      "where are the tutorials"
+    ],
+    "response": "Yes — your access e-mail takes you to a members area with all download links, the organised package and the step-by-step setup tutorials. The updater inside the toolkit handles future versions from there.",
+    "followup": "Would you like the purchase link so you can get started?",
+    "priority": 1
+  }
+]

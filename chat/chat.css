@@ -1,0 +1,313 @@
+/* Chat widget styles — Ana virtual assistant */
+/* Uses the colour tokens defined in style.css (--primary, --gradient, ...) */
+
+/* ---------- Floating launcher ---------- */
+.ana-chat-launcher {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: var(--gradient);
+  box-shadow: 0 4px 25px rgba(0, 255, 136, 0.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 99999;
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  border: 2px solid rgba(255, 255, 255, 0.12);
+}
+.ana-chat-launcher:hover {
+  transform: scale(1.08) translateY(-3px);
+  box-shadow: 0 8px 30px rgba(0, 255, 136, 0.5);
+}
+.ana-chat-launcher svg {
+  width: 26px;
+  height: 26px;
+  color: #06121a;
+  transition: transform 0.3s ease;
+}
+.ana-chat-launcher:hover svg { transform: rotate(8deg); }
+
+.ana-chat-badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 14px;
+  height: 14px;
+  background-color: #00ff88;
+  border-radius: 50%;
+  border: 2px solid #0b0f19;
+  box-shadow: 0 0 10px #00ff88;
+}
+.ana-chat-badge-pulse {
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  width: 14px;
+  height: 14px;
+  background-color: #00ff88;
+  border-radius: 50%;
+  opacity: 0.75;
+  animation: ana-pulse 2s infinite ease-in-out;
+  pointer-events: none;
+}
+@keyframes ana-pulse {
+  0% { transform: scale(1); opacity: 0.75; }
+  100% { transform: scale(2.2); opacity: 0; }
+}
+
+/* ---------- Speech bubble ---------- */
+.ana-chat-speech-bubble {
+  position: fixed;
+  bottom: 98px;
+  right: 25px;
+  background: rgba(21, 27, 43, 0.94);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(0, 255, 136, 0.25);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  padding: 15px 18px;
+  border-radius: 16px 16px 4px 16px;
+  width: 300px;
+  max-width: calc(100vw - 40px);
+  color: var(--text-main);
+  z-index: 99998;
+  font-size: 0.9rem;
+  line-height: 1.45;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  animation: ana-fade-in-slide 0.45s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+}
+@keyframes ana-fade-in-slide {
+  from { opacity: 0; transform: translateY(14px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.ana-chat-speech-bubble .bubble-header {
+  font-weight: 700;
+  color: var(--primary);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+}
+.ana-chat-speech-bubble .bubble-close { cursor: pointer; color: var(--text-muted); display: flex; }
+.ana-chat-speech-bubble .bubble-close:hover { color: var(--accent); }
+.ana-chat-speech-bubble .bubble-close svg { width: 14px; height: 14px; }
+.ana-chat-speech-bubble .bubble-footer {
+  font-size: 0.8rem;
+  color: var(--primary);
+  align-self: flex-end;
+  font-weight: 600;
+  cursor: pointer;
+}
+.ana-chat-speech-bubble .bubble-footer:hover { text-decoration: underline; }
+
+/* ---------- Chat window ---------- */
+.ana-chat-window {
+  position: fixed;
+  bottom: 98px;
+  right: 25px;
+  width: 380px;
+  height: 550px;
+  max-width: 90vw;
+  max-height: 78vh;
+  background: rgba(21, 27, 43, 0.92);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(0, 255, 136, 0.15);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  z-index: 99999;
+  overflow: hidden;
+  font-family: var(--font-body, 'Inter', sans-serif);
+  opacity: 0;
+  transform: translateY(20px) scale(0.95);
+  transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+  pointer-events: none;
+}
+.ana-chat-window.active { opacity: 1; transform: translateY(0) scale(1); pointer-events: auto; }
+
+.ana-chat-header {
+  padding: 14px 18px;
+  background: linear-gradient(135deg, rgba(21, 27, 43, 0.98), rgba(11, 15, 25, 0.98));
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.ana-chat-header-profile { display: flex; align-items: center; gap: 12px; }
+.ana-chat-avatar-container { position: relative; width: 40px; height: 40px; }
+.ana-chat-avatar {
+  width: 100%; height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--primary);
+  background-color: var(--surface-light);
+}
+.ana-chat-header-status-dot {
+  position: absolute;
+  bottom: 0; right: 0;
+  width: 11px; height: 11px;
+  background: #00ff88;
+  border: 2px solid #0b0f19;
+  border-radius: 50%;
+}
+.ana-chat-header-info { display: flex; flex-direction: column; line-height: 1.25; }
+.ana-chat-header-name { font-weight: 700; font-family: var(--font-head, 'Outfit', sans-serif); }
+.ana-chat-header-status { font-size: 0.74rem; color: var(--primary); display: flex; align-items: center; gap: 5px; }
+.ana-chat-header-controls { display: flex; gap: 6px; }
+.ana-chat-control-btn {
+  width: 32px; height: 32px;
+  border-radius: 9px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text-muted);
+  display: grid; place-items: center;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.ana-chat-control-btn svg { width: 15px; height: 15px; }
+.ana-chat-control-btn:hover { color: var(--text-main); border-color: rgba(0, 255, 136, 0.35); }
+.ana-chat-control-btn.close:hover { color: var(--accent); border-color: rgba(255, 0, 85, 0.4); }
+
+/* ---------- Messages ---------- */
+.ana-chat-messages {
+  flex: 1;
+  overflow-y: auto;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.18) transparent;
+}
+.ana-chat-messages::-webkit-scrollbar { width: 6px; }
+.ana-chat-messages::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.18); border-radius: 3px; }
+
+.ana-chat-msg-row { display: flex; }
+.ana-chat-msg-row.user { justify-content: flex-end; }
+.ana-chat-msg-row.assistant { justify-content: flex-start; }
+
+.ana-chat-bubble {
+  max-width: 84%;
+  padding: 11px 14px;
+  border-radius: 14px;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+.ana-chat-msg-row.assistant .ana-chat-bubble {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: var(--text-main);
+  border-bottom-left-radius: 4px;
+}
+.ana-chat-msg-row.user .ana-chat-bubble {
+  background: var(--gradient);
+  color: #06121a;
+  font-weight: 500;
+  border-bottom-right-radius: 4px;
+}
+.ana-chat-bubble a { color: var(--secondary); text-decoration: underline; }
+.ana-chat-msg-row.user .ana-chat-bubble a { color: #05222b; }
+.ana-chat-bubble ul { margin: 8px 0 4px 18px; list-style: disc; }
+.ana-chat-bubble li { margin-bottom: 4px; }
+.ana-chat-bubble strong { color: var(--primary); }
+.ana-chat-msg-row.user .ana-chat-bubble strong { color: #05222b; }
+
+.ana-typewriter-cursor::after {
+  content: '▍';
+  color: var(--primary);
+  animation: ana-blink 1s steps(2, start) infinite;
+}
+@keyframes ana-blink { to { visibility: hidden; } }
+
+/* ---------- Typing indicator ---------- */
+.ana-typing-container { display: flex; align-items: center; gap: 9px; }
+.ana-typing-dots { display: flex; gap: 4px; }
+.ana-typing-dot {
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  background: var(--primary);
+  opacity: 0.5;
+  animation: ana-typing 1.2s infinite ease-in-out;
+}
+.ana-typing-dot:nth-child(2) { animation-delay: 0.18s; }
+.ana-typing-dot:nth-child(3) { animation-delay: 0.36s; }
+@keyframes ana-typing {
+  0%, 60%, 100% { transform: translateY(0); opacity: 0.45; }
+  30% { transform: translateY(-4px); opacity: 1; }
+}
+.ana-typing-text { font-size: 0.76rem; color: var(--text-muted); }
+
+/* ---------- Quick replies ---------- */
+.ana-chat-suggestions { display: flex; flex-wrap: wrap; gap: 8px; padding: 0 18px 12px; }
+.ana-chat-suggestion {
+  font-size: 0.78rem;
+  color: var(--primary);
+  background: rgba(0, 255, 136, 0.08);
+  border: 1px solid rgba(0, 255, 136, 0.28);
+  border-radius: 999px;
+  padding: 7px 12px;
+  cursor: pointer;
+  transition: 0.2s;
+  font-family: inherit;
+}
+.ana-chat-suggestion:hover { background: rgba(0, 255, 136, 0.16); }
+
+/* ---------- Input area ---------- */
+.ana-chat-input-area {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+  padding: 12px 14px 14px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(11, 15, 25, 0.6);
+}
+.ana-chat-input-wrapper { flex: 1; }
+.ana-chat-textarea {
+  width: 100%;
+  resize: none;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text-main);
+  border-radius: 12px;
+  padding: 11px 13px;
+  font-family: inherit;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  max-height: 100px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+.ana-chat-textarea:focus { border-color: rgba(0, 255, 136, 0.45); }
+.ana-chat-textarea::placeholder { color: var(--text-muted); }
+.ana-chat-send-btn {
+  width: 42px; height: 42px;
+  flex: none;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text-muted);
+  display: grid; place-items: center;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.ana-chat-send-btn svg { width: 18px; height: 18px; }
+.ana-chat-send-btn.active { background: var(--gradient); color: #06121a; border-color: transparent; }
+.ana-chat-send-btn.active:hover { box-shadow: 0 6px 18px rgba(0, 255, 136, 0.35); }
+
+@media (max-width: 520px) {
+  .ana-chat-window { right: 12px; left: 12px; width: auto; height: 70vh; bottom: 88px; }
+  .ana-chat-speech-bubble { right: 12px; width: calc(100vw - 24px); }
+  .ana-chat-launcher { right: 16px; bottom: 18px; width: 54px; height: 54px; }
+}

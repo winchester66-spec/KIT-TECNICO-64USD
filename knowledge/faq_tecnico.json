@@ -1,0 +1,98 @@
+[
+  {
+    "id": "download_time_tech",
+    "title": "Download and preparation time",
+    "keywords": ["how long to download", "prep time", "downtime", "first setup"],
+    "patterns": [
+      "how long does it take to download everything", "how long to set up the usb",
+      "how much time to prepare", "first time setup duration", "prep time"
+    ],
+    "response": "Budget one download session, then a few minutes to extract and copy to the drive. After that it is ready forever: plug in, tick boxes, run. The prep is a one-time cost, unlike the hour you lose on every manual setup.",
+    "followup": "Anything else about the workflow?",
+    "priority": 1
+  },
+  {
+    "id": "windows_iso",
+    "title": "Does it include Windows ISOs",
+    "keywords": ["windows iso", "operating system", "windows install", "iso image"],
+    "patterns": [
+      "does it include windows", "does it come with an iso", "does it install windows",
+      "is the operating system included", "windows image included", "can i install windows with it"
+    ],
+    "response": "No. This is a post-install toolkit, not an operating system image. You install Windows yourself from your own media or licence, then use the toolkit to set the machine up. It does not include Windows ISOs, keys or activators.",
+    "followup": "Want to know what it does right after the install?",
+    "priority": 3
+  },
+  {
+    "id": "activators",
+    "title": "Cracks and activators",
+    "keywords": ["crack", "activator", "keygen", "pirated", "licence key"],
+    "patterns": [
+      "does it include activators", "any cracks", "does it activate office", "is it pirated software",
+      "does it include keys", "kmspico", "office activator"
+    ],
+    "response": "No. The toolkit ships legitimate installers for freely distributed, trial or vendor-supplied software — and our own automation tools. It contains no cracks, activators or keygens, and licensing each program for your client is handled normally.",
+    "followup": "Do you want to know which Office versions are included?",
+    "priority": 3
+  },
+  {
+    "id": "auto_updates",
+    "title": "Keeping the package current",
+    "keywords": ["keep updated", "automatic updates", "refresh", "new installers"],
+    "patterns": [
+      "how do i keep it updated", "are updates automatic", "how do i refresh the installers",
+      "do i have to rebuild the usb", "staying current"
+    ],
+    "response": "You drive it from the updater panel inside the toolkit: it lists each program with its last update date and drops the newest installer into the right folder on the drive. No rebuilding from scratch and no extra charge.",
+    "followup": "Anything else technical you want to check?",
+    "priority": 2
+  },
+  {
+    "id": "minstall",
+    "title": "MInstAll launcher",
+    "keywords": ["minstall", "launcher", "batch installer", "what installer"],
+    "patterns": [
+      "what is minstall", "which installer does it use", "tell me about the launcher",
+      "how does the batch installer work", "is the installer included"
+    ],
+    "response": "MInstAll is the launcher at the centre of the toolkit. It opens with every category and program listed, lets you tick what you need — including a select-all option — and then runs the whole queue in sequence with no per-program intervention.",
+    "followup": "Would you like to see the interface screenshots?",
+    "priority": 2
+  },
+  {
+    "id": "install_speed",
+    "title": "Installation speed on the bench",
+    "keywords": ["speed", "how fast installs", "faster", "throughput", "batch speed"],
+    "patterns": [
+      "how fast does it install", "is it quicker than manual", "installation speed",
+      "how long does the queue take", "can i install while doing something else"
+    ],
+    "response": "The queue runs unattended, start to finish, so your hands are free for the next machine. That is the real gain: instead of supervising setups, you prep the next job and come back to a finished machine.",
+    "followup": "Would you like the purchase link?",
+    "priority": 2
+  },
+  {
+    "id": "disk_space",
+    "title": "Space needed on the client machine",
+    "keywords": ["disk space", "space on the pc", "storage", "free space"],
+    "patterns": [
+      "how much disk space does it need", "does it install onto the pc", "space on the client computer",
+      "does it take up room", "do i install the toolkit on the pc"
+    ],
+    "response": "The toolkit itself runs from the USB drive and takes no meaningful space on the client machine. Only the programs you choose to install end up on the hard drive, exactly as if you had installed them manually.",
+    "followup": "Anything else about how it runs?",
+    "priority": 2
+  },
+  {
+    "id": "utilities",
+    "title": "Utilities included",
+    "keywords": ["utilities", "7zip", "winrar", "filezilla", "tools"],
+    "patterns": [
+      "which utilities are included", "does it have 7zip", "winrar included", "filezilla",
+      "archive tools", "what maintenance tools are there"
+    ],
+    "response": "Dozens: 7-Zip, WinRAR, FileZilla, PDF readers, download managers, media players, codec packs, benchmarking and diagnostic helpers, remote access tools and system cleanup utilities — the everyday kit of a repair bench.",
+    "followup": "Would you like the full category list?",
+    "priority": 2
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "general_compat",
+    "title": "General compatibility",
+    "keywords": ["compatible", "compatibility", "will it work", "desktop", "laptop"],
+    "patterns": [
+      "is it compatible", "will it work on my computer", "compatibility",
+      "does it work on desktops and laptops", "system requirements", "what do i need to run it"
+    ],
+    "response": "It runs on Windows 10 and Windows 11 (64-bit) on desktops and laptops, including older machines still on Windows 7. The toolkit itself runs from your USB drive, so it does not need to be installed on any PC.",
+    "followup": "Do you want to know about driver coverage?",
+    "priority": 3
+  },
+  {
+    "id": "brands",
+    "title": "Brands supported",
+    "keywords": ["brand", "dell", "hp", "lenovo", "acer", "asus", "which brands"],
+    "patterns": [
+      "which brands are supported", "does it work on dell", "hp laptops", "lenovo thinkpad",
+      "acer", "asus", "does it work on any brand", "oem machines"
+    ],
+    "response": "Any brand: Dell, HP, Lenovo, Acer, Asus, MSI, Samsung, Toshiba and custom-built desktops. Driver detection is hardware-based, not brand-based, so it also handles generic and whitebox machines.",
+    "followup": "Do you want the detail on the offline driver pack?",
+    "priority": 2
+  },
+  {
+    "id": "specific_drivers",
+    "title": "Which drivers are covered",
+    "keywords": ["driver coverage", "which drivers", "chipset", "bluetooth", "audio", "video"],
+    "patterns": [
+      "which drivers are included", "does it cover my drivers", "chipset drivers", "audio drivers",
+      "video drivers", "bluetooth driver", "lan driver", "which hardware is covered"
+    ],
+    "response": "The offline pack covers motherboard and chipset, LAN, Wi-Fi, Bluetooth, audio, video and the usual peripheral components. For very new or exotic hardware that shipped after the pack was built, the updater lets you pull the freshest installer from the panel.",
+    "followup": "Should we check a specific model or component?",
+    "priority": 2
+  }
+]

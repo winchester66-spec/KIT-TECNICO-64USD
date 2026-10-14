@@ -1,0 +1,74 @@
+[
+  {
+    "id": "how_to_pay",
+    "title": "How payment works",
+    "keywords": ["how to pay", "payment step", "checkout", "pay now", "process payment"],
+    "patterns": [
+      "how does payment work", "how do i complete the payment", "what happens when i pay",
+      "how does the checkout work", "payment process", "is it instant", "how long does approval take"
+    ],
+    "response": "You click the buy button, the checkout page opens, you choose a payment method and confirm. Digital card payments are usually approved within seconds, and the access e-mail follows immediately.",
+    "followup": "Want me to explain what the e-mail contains?",
+    "priority": 2
+  },
+  {
+    "id": "declined_payment",
+    "title": "Card keeps getting declined",
+    "keywords": ["declined", "rejected", "declined twice", "authorization", "bank"],
+    "patterns": [
+      "my payment keeps getting declined", "card declined twice", "my card does not go through",
+      "bank declined the transaction", "payment authorization failed", "card not accepted"
+    ],
+    "response": "Repeated declines almost always come from the card issuer, not the checkout. Call the number on the back of your card, authorize the online charge, then try again — or use a different card or wallet option at checkout.",
+    "followup": "Would you like to try again with the link?",
+    "priority": 1
+  },
+  {
+    "id": "approved_payment",
+    "title": "What happens right after paying",
+    "keywords": ["after payment", "what now", "next", "access email"],
+    "patterns": [
+      "what happens after i pay", "after the payment is approved", "what do i get after paying",
+      "payment accepted what now", "next step after purchase"
+    ],
+    "response": "After approval you get an e-mail with your download links and access details, plus the setup tutorial. Download the files, extract them and copy the folder to your {{USB_SIZE}} USB drive.",
+    "followup": "Should I walk you through the USB setup step by step?",
+    "priority": 2
+  },
+  {
+    "id": "payment_error",
+    "title": "Something went wrong while paying",
+    "keywords": ["payment error", "went wrong", "problem paying", "stuck"],
+    "patterns": [
+      "something went wrong with the payment", "i got an error while paying", "payment error",
+      "the payment is stuck", "the page froze during payment", "payment did not process"
+    ],
+    "response": "First check whether the charge actually appears on your card — if the page froze after approval, the e-mail is usually on the way anyway. If the payment failed or you were charged without receiving the links, email {{SUPPORT_EMAIL}} with the approximate time and amount and we will trace it.",
+    "followup": "Do you want the checkout link to try once more?",
+    "priority": 2
+  },
+  {
+    "id": "refund",
+    "title": "Refunds and cancellations",
+    "keywords": ["refund", "cancel", "money back", "return", "not satisfied"],
+    "patterns": [
+      "how do refunds work", "can i cancel", "i want a refund", "money back", "i am not satisfied",
+      "cancel my purchase", "refund request", "does it have a guarantee"
+    ],
+    "response": "Because this is a digital download delivered instantly, refunds follow the buyer policy shown on the checkout page. {{GUARANTEE}} If anything is wrong with the files or the download, email {{SUPPORT_EMAIL}} and we will fix it or take care of you.",
+    "followup": "Anything you want to clarify before buying?",
+    "priority": 2
+  },
+  {
+    "id": "billing_statement",
+    "title": "What shows on my statement",
+    "keywords": ["statement", "charge appears", "bank statement", "billing", "descriptor"],
+    "patterns": [
+      "what shows on my statement", "how does the charge appear", "name on my card statement",
+      "billing descriptor", "what will i be charged", "how is it billed"
+    ],
+    "response": "The charge appears on your statement in USD ({{PRICE}}) under the name of our checkout provider, which may differ from the product name. If you need a receipt or invoice for your records, email {{SUPPORT_EMAIL}}.",
+    "followup": "Anything else about the purchase?",
+    "priority": 1
+  }
+]

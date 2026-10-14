@@ -1,0 +1,39 @@
+[
+  {
+    "id": "greeting",
+    "title": "Greeting",
+    "keywords": ["hi", "hello", "hey", "good morning", "good afternoon", "thanks", "thank you"],
+    "patterns": [
+      "hi", "hello", "hey", "hi there", "hello there", "good morning", "good afternoon",
+      "good evening", "how are you", "thanks", "thank you", "thanks a lot", "bye", "goodbye",
+      "see you", "yo", "howdy"
+    ],
+    "response": "Hi! 👋 Welcome to the {{PRODUCT_NAME}}. I'm Ana, the assistant for the toolkit — happy to answer anything about what's included, price, delivery, compatibility or setting up your USB drive.",
+    "followup": "What would you like to know first?",
+    "priority": 1
+  },
+  {
+    "id": "what_can_you_do",
+    "title": "What the assistant does",
+    "keywords": ["assistant", "bot", "help me", "what can you do", "are you human", "chat"],
+    "patterns": [
+      "what can you do", "can you help me", "how can you help", "are you a bot", "are you a robot",
+      "are you human", "what are you", "who are you", "help me decide", "i have a question"
+    ],
+    "response": "I'm Ana, the virtual assistant for the {{PRODUCT_NAME}}. I can explain what's inside the toolkit, how payment and delivery work, whether it fits your Windows version, how to prepare your USB drive and what support you get.",
+    "followup": "What would you like to look into?",
+    "priority": 1
+  },
+  {
+    "id": "more_information",
+    "title": "Quick overview",
+    "keywords": ["more info", "tell me more", "overview", "summary", "about the toolkit"],
+    "patterns": [
+      "tell me more", "more information", "more info", "give me an overview", "what is the offer",
+      "summarize", "summary", "main features", "about this toolkit"
+    ],
+    "response": "Quick version: the {{PRODUCT_NAME}} is a USB-ready toolkit for PC repair work. It batch-installs **160+ programs** in one click, installs **chipset, network, audio and video drivers offline**, includes a built-in updater and a Windows tweaks panel — all for a single payment of **{{PRICE}}**.",
+    "followup": "Should I walk you through what's included, or go straight to the purchase link?",
+    "priority": 1
+  }
+]

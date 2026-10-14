@@ -1,0 +1,62 @@
+[
+  {
+    "id": "included_bonuses",
+    "title": "What comes as a bonus",
+    "keywords": ["bonus", "extras", "included free", "additional"],
+    "patterns": [
+      "what bonuses are included", "what extras do i get", "is there anything extra",
+      "any bonus tools", "what else comes with it", "does it include tutorials"
+    ],
+    "response": "The two extra tools are the **built-in updater** (keeps every installer current) and the **Windows tweaks panel** (post-format jobs in one click). Both are included in the same one-time price of {{PRICE}}, along with the setup tutorials in the members area.",
+    "followup": "Would you like to see the tweaks list?",
+    "priority": 2
+  },
+  {
+    "id": "updater_bonus",
+    "title": "The updater",
+    "keywords": ["updater", "keeps current", "installer updater"],
+    "patterns": [
+      "tell me about the updater", "is the updater included", "how does the installer updater help",
+      "does it keep programs updated", "updater details"
+    ],
+    "response": "The updater is a panel that shows every application in the package with its last update date, and downloads the newest installer straight into the correct folder on your drive. It is the difference between a USB stick you trust for years and one that is obsolete in three months.",
+    "followup": "Do you want the feature list?",
+    "priority": 2
+  },
+  {
+    "id": "tweaks_bonus",
+    "title": "The tweaks panel",
+    "keywords": ["tweaks", "optimisation", "one click fixes", "setup shortcuts"],
+    "patterns": [
+      "tell me about the tweaks", "is the tweaks panel included", "what can the tweaks do",
+      "post format tweaks", "windows optimisation panel"
+    ],
+    "response": "It groups the repetitive post-format chores into single clicks: desktop and explorer icons, power plans, temp file cleanup, OneDrive control, the Windows 11 context menu and Windows Update repair — the things you do on nearly every machine anyway.",
+    "followup": "Anything else you'd like to know?",
+    "priority": 2
+  },
+  {
+    "id": "time_savings",
+    "title": "How much time it saves",
+    "keywords": ["time saved", "how long", "faster", "save time", "per machine"],
+    "patterns": [
+      "how much time does it save", "how many hours", "is it faster than doing it manually",
+      "what is the time saving", "per machine how much time"
+    ],
+    "response": "Technicians report around an hour saved per machine, mainly from not installing programs one by one and not hunting drivers on a machine that has no internet. Time it once with a stopwatch on your own bench — the queue runs while you do something else.",
+    "followup": "Would you like the purchase link?",
+    "priority": 2
+  },
+  {
+    "id": "tutorials",
+    "title": "Tutorials included",
+    "keywords": ["tutorial", "guide", "videos", "instructions", "how to"],
+    "patterns": [
+      "are there tutorials", "is there a guide", "do you include videos", "step by step instructions",
+      "how do i learn to use it", "is there a manual"
+    ],
+    "response": "The members area includes step-by-step material showing how to download the package, extract it, prepare the USB drive and run the launcher and driver panel. Support answers specific questions by e-mail as well.",
+    "followup": "Do you want to know how support works?",
+    "priority": 2
+  }
+]

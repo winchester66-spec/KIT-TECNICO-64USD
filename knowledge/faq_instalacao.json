@@ -1,0 +1,208 @@
+[
+  {
+    "id": "how_install",
+    "title": "How to use the toolkit",
+    "keywords": [
+      "how to install",
+      "setup",
+      "use it",
+      "run it",
+      "instructions"
+    ],
+    "patterns": [
+      "how do i install it",
+      "how do i use the toolkit",
+      "how does it work",
+      "setup instructions",
+      "how do i run it",
+      "is it hard to set up",
+      "installation steps"
+    ],
+    "response": "Download the package, extract it, copy the folder to your {{USB_SIZE}} USB drive. On the machine being serviced, open the launcher, tick the programs you want and start the queue. The driver panel runs the same way — pick the hardware category and let it install.",
+    "followup": "Would you like the setup tutorial link after purchase?",
+    "priority": 3
+  },
+  {
+    "id": "difficulty",
+    "title": "Is it difficult to use",
+    "keywords": [
+      "difficult",
+      "complicated",
+      "hard",
+      "easy",
+      "learning curve"
+    ],
+    "patterns": [
+      "is it difficult",
+      "is it complicated",
+      "is it easy to use",
+      "do i need to be an expert",
+      "will i understand it",
+      "is it for beginners",
+      "do i need training"
+    ],
+    "response": "If you can format a PC, you can use this. The launcher is a list with checkboxes and a run button, and the drivers install from a category panel. The video tutorials cover the whole flow, and support answers questions from real technicians every day.",
+    "followup": "Want to see the interface screenshots?",
+    "priority": 2
+  },
+  {
+    "id": "for_beginners",
+    "title": "For beginners",
+    "keywords": [
+      "beginner",
+      "new to this",
+      "starting out",
+      "inexperienced",
+      "hobbyist"
+    ],
+    "patterns": [
+      "i am a beginner",
+      "im new to computer repair",
+      "is it good for beginners",
+      "i do this part time",
+      "i am just starting my shop",
+      "no experience"
+    ],
+    "response": "Beginners benefit the most, because the automation removes the manual steps where mistakes happen. You install programs and drivers in a predictable order every time — exactly what you want while you are still building confidence.",
+    "followup": "Would you like to know what support is included?",
+    "priority": 2
+  },
+  {
+    "id": "for_professionals",
+    "title": "For experienced technicians",
+    "keywords": [
+      "professional",
+      "experienced",
+      "shop owner",
+      "volume",
+      "many machines"
+    ],
+    "patterns": [
+      "i am an experienced technician",
+      "is it good for a repair shop",
+      "i do this for a living",
+      "does it help with volume",
+      "for professionals",
+      "i repair many computers"
+    ],
+    "response": "For a working bench it is about throughput: instead of babysitting setup wizards, you queue everything and move to the next job. Drivers offline means you are never stuck waiting on a download before a machine can go online.",
+    "followup": "Do you want to see what's included before deciding?",
+    "priority": 1
+  },
+  {
+    "id": "bootable_usb",
+    "title": "Does it need to be bootable",
+    "keywords": [
+      "bootable",
+      "boot",
+      "bios",
+      "usb boot",
+      "winpe"
+    ],
+    "patterns": [
+      "is the usb bootable",
+      "do i need to boot from it",
+      "does it replace my windows installer",
+      "do i need to make it bootable",
+      "boot from usb",
+      "does it install windows"
+    ],
+    "response": "No. This is a post-install toolkit: you install Windows normally (your own ISO or media), then plug in the toolkit USB and run the launcher inside Windows. Nothing about your Windows installer or boot setup changes.",
+    "followup": "Want to know what it does right after a format?",
+    "priority": 2
+  },
+  {
+    "id": "after_format",
+    "title": "Right after a format",
+    "keywords": [
+      "after format",
+      "after formatting",
+      "format the pc",
+      "formatting",
+      "fresh install",
+      "new windows",
+      "post install",
+      "reinstall"
+    ],
+    "patterns": [
+      "after formatting the computer",
+      "does it help after installing windows",
+      "does it work after a format",
+      "fresh windows install",
+      "i just did a clean install",
+      "just formatted the pc",
+      "new install of windows",
+      "post installation",
+      "right after formatting",
+      "what about right after reinstalling windows",
+      "what if i format the pc"
+    ],
+    "response": "That is exactly the moment it is built for: brand-new Windows with no drivers and no software. Run the driver panel first to restore connectivity, then start the program queue while you set up the rest of the machine.",
+    "followup": "Do you want the order of operations we recommend?",
+    "priority": 3
+  },
+  {
+    "id": "remote_install",
+    "title": "Remote sessions",
+    "keywords": [
+      "remote",
+      "anydesk",
+      "teamviewer",
+      "remote support",
+      "offsite"
+    ],
+    "patterns": [
+      "can i use it remotely",
+      "does it work with anydesk",
+      "remote support sessions",
+      "can i use it with teamviewer",
+      "work from home repairs",
+      "remote installation"
+    ],
+    "response": "Yes. If you are connected through AnyDesk or TeamViewer, the launcher and driver panel run the same way. Just remember the drivers are on the USB drive, so either copy the needed driver folder across or run it locally.",
+    "followup": "Anything else about your workflow?",
+    "priority": 1
+  },
+  {
+    "id": "other_computers",
+    "title": "Using it on many computers",
+    "keywords": [
+      "many computers",
+      "unlimited",
+      "how many machines",
+      "multiple pcs",
+      "repeat use"
+    ],
+    "patterns": [
+      "can i use it on many computers",
+      "how many machines can i use it on",
+      "is there a limit",
+      "can i use it on client pcs",
+      "unlimited installs"
+    ],
+    "response": "Unlimited machines, including your clients' — that is the whole point of a repair-shop tool. There is no per-machine fee and no activation limit. The files stay on your USB drive; you install programs on the machine being serviced.",
+    "followup": "Would you like the purchase link?",
+    "priority": 2
+  },
+  {
+    "id": "backup",
+    "title": "Backup before formatting",
+    "keywords": [
+      "backup",
+      "save files",
+      "before format",
+      "data",
+      "client data"
+    ],
+    "patterns": [
+      "does it help with backups",
+      "can i back up client files",
+      "before formatting the pc",
+      "does it include backup tools",
+      "protect client data"
+    ],
+    "response": "The toolkit is about what happens after the format; it does not manage client backups. Keep using your usual backup routine for data before wiping a drive — the utilities in the package are for the setup phase, not for data rescue.",
+    "followup": "Anything else about your process?",
+    "priority": 1
+  }
+]

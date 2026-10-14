@@ -1,0 +1,86 @@
+[
+  {
+    "id": "lifetime_access",
+    "title": "Lifetime access",
+    "keywords": ["lifetime", "forever", "subscription", "monthly", "renewal"],
+    "patterns": [
+      "is it lifetime", "is there a subscription", "do i pay monthly", "am i charged again",
+      "does it expire", "is it a yearly fee", "one time payment", "do i have to renew"
+    ],
+    "response": "It is a **one-time payment of {{PRICE}}** — no subscription, no renewal, no per-machine fee. Your access and future updates stay available for as long as the toolkit exists.",
+    "followup": "Would you like the purchase link?",
+    "priority": 3
+  },
+  {
+    "id": "login",
+    "title": "Logging in",
+    "keywords": ["login", "sign in", "access", "account", "password"],
+    "patterns": [
+      "how do i log in", "where do i sign in", "i cannot access the members area", "how do i get in",
+      "there is no password", "login link", "access details"
+    ],
+    "response": "Your access details arrive in the e-mail sent after purchase. Open the link in that e-mail to reach the members area and your downloads — no separate signup needed.",
+    "followup": "Do you want me to explain what the e-mail includes?",
+    "priority": 2
+  },
+  {
+    "id": "password",
+    "title": "Password problems",
+    "keywords": ["password", "forgot password", "reset", "no password"],
+    "patterns": [
+      "i forgot my password", "how do i reset the password", "my password does not work",
+      "i did not get a password", "reset access"
+    ],
+    "response": "Depending on the delivery format, you either open a direct link from your e-mail or set a password on first access. If a password reset is not working, email {{SUPPORT_EMAIL}} with the address used at checkout and we will restore access.",
+    "followup": "Anything else about accessing your files?",
+    "priority": 1
+  },
+  {
+    "id": "access_duration",
+    "title": "How long access lasts",
+    "keywords": ["access duration", "how long access", "expire", "time limit"],
+    "patterns": [
+      "how long do i have access", "does my access expire", "is there a time limit",
+      "can i use it next year", "how long can i download"
+    ],
+    "response": "There is no deadline. Your access does not expire, and you can download the package again whenever you need it — including after a computer upgrade or a fresh Windows install on your own machine.",
+    "followup": "Anything else you'd like to check?",
+    "priority": 1
+  },
+  {
+    "id": "lost_access",
+    "title": "Lost access",
+    "keywords": ["lost access", "cannot find", "deleted email", "old computer"],
+    "patterns": [
+      "i lost my access", "i cannot find the email anymore", "i deleted the files",
+      "my old computer died", "i need the links again", "recover access"
+    ],
+    "response": "No problem. Email {{SUPPORT_EMAIL}} with the e-mail address used at checkout (or a receipt) and we will resend your links. Buyers regularly re-download years later — that is expected.",
+    "followup": "Should I give you the support address again?",
+    "priority": 2
+  },
+  {
+    "id": "change_email",
+    "title": "Wrong e-mail address",
+    "keywords": ["wrong email", "typo", "change email", "update email"],
+    "patterns": [
+      "i typed the wrong email", "wrong email address", "can you change my email",
+      "i used the wrong address", "update my email"
+    ],
+    "response": "Easy to fix. Email {{SUPPORT_EMAIL}} with the address you typed and the correct one, plus your payment details, and we will re-issue the access to the right inbox.",
+    "followup": "Anything else I can help with?",
+    "priority": 2
+  },
+  {
+    "id": "first_access",
+    "title": "First steps after buying",
+    "keywords": ["first access", "getting started", "start", "begin", "setup"],
+    "patterns": [
+      "where do i start", "what do i do first", "how do i begin after purchase",
+      "first steps", "getting started", "im new how do i use it"
+    ],
+    "response": "Three steps: 1) open your access e-mail and download the package; 2) extract it and copy the folder to your {{USB_SIZE}} USB drive; 3) on a client machine, run the launcher, tick the programs and start the queue. The video tutorial covers each step.",
+    "followup": "Want me to explain the driver step as well?",
+    "priority": 2
+  }
+]

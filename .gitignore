@@ -1,0 +1,13 @@
+# Never commit secrets. This file is uploaded to GitHub Pages and becomes public.
+.env
+.env.*
+*.pem
+
+# Dependencies / local tooling
+node_modules/
+.netlify/
+dist/
+
+# OS noise
+.DS_Store
+Thumbs.db

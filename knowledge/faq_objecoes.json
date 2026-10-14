@@ -1,0 +1,98 @@
+[
+  {
+    "id": "is_it_trustworthy",
+    "title": "Can this be trusted",
+    "keywords": ["trustworthy", "trust", "legit", "real", "should i trust"],
+    "patterns": [
+      "is this trustworthy", "should i trust this", "is this legit", "is this real",
+      "has anyone bought this", "is this a fake site", "how do i know it works"
+    ],
+    "response": "Fair question to ask about any toolkit you install for a customer. Two things you can check before paying: watch the demo video on this page to see the panel running, and email {{SUPPORT_EMAIL}} with any question — you can judge the answer yourself. Payment is processed by a third-party checkout that also protects your card details.",
+    "followup": "Would you like to see the interface screenshots or the demo video?",
+    "priority": 3
+  },
+  {
+    "id": "is_it_safe_to_buy",
+    "title": "Is the purchase safe",
+    "keywords": ["safe to buy", "secure purchase", "scam", "buyer protection"],
+    "patterns": [
+      "is it safe to buy", "will i get scammed", "is the purchase protected",
+      "do you have buyer protection", "is checkout reliable", "how do i know i get the files"
+    ],
+    "response": "You pay through a third-party checkout that handles the card data and follows its own buyer policy, so you are not sending money to a private account. Delivery happens automatically the moment the payment is approved, and support follows up if anything goes wrong.",
+    "followup": "Would you like the link so you can read the checkout terms?",
+    "priority": 2
+  },
+  {
+    "id": "virus_concern",
+    "title": "Are the files clean",
+    "keywords": ["virus", "malware", "safe files", "clean", "infected"],
+    "patterns": [
+      "does it have a virus", "are the files safe", "is it malware", "will it infect the pc",
+      "can i scan the files", "why does defender flag it"
+    ],
+    "response": "The installers come from the software vendors themselves, and the package is tested on real benches. The usual caveat: bulk installers and driver packs frequently trigger false positives. Scan the folder for your own peace of mind before using it, and add an exception if something gets quarantined.",
+    "followup": "Do you want the steps for adding a Defender exception?",
+    "priority": 2
+  },
+  {
+    "id": "worth_it",
+    "title": "Is it worth it",
+    "keywords": ["worth it", "value for money", "should i buy", "justify"],
+    "patterns": [
+      "is it worth it", "is it worth the money", "should i buy this", "is it good value",
+      "why is it so cheap", "can it really be that cheap"
+    ],
+    "response": "Judge it against one machine: {{PRICE}} versus the hour you would otherwise spend installing programs and chasing drivers. If it saves you that hour twice, it has paid for itself. And it is cheap because it is a digital download with no shipping or production cost.",
+    "followup": "Would you like the purchase link?",
+    "priority": 3
+  },
+  {
+    "id": "does_it_really_work",
+    "title": "Does it really work",
+    "keywords": ["does it work", "proof", "demonstration", "show me", "real"],
+    "patterns": [
+      "does it really work", "how do i know it works", "can you prove it", "show me proof",
+      "any demonstration", "is there a demo"
+    ],
+    "response": "Watch the demo video on this page — it shows the launcher and the driver panel running on a real machine. If you want to see something specific before buying, such as a particular program category or driver panel behaviour, just ask.",
+    "followup": "What would you like to see demonstrated?",
+    "priority": 2
+  },
+  {
+    "id": "reviews",
+    "title": "Customer reviews",
+    "keywords": ["reviews", "testimonials", "feedback", "other buyers", "ratings"],
+    "patterns": [
+      "do you have reviews", "any testimonials", "what do other buyers say", "customer feedback",
+      "is there any proof from customers", "anyone recommend it"
+    ],
+    "response": "Honest answer: the toolkit has been sold and used by technicians in Brazil and Portugal for years, and that is where our feedback comes from. We are new to the US market, so we would rather earn your confidence with the demo, the screenshots and straight answers than with testimonials you cannot check.",
+    "followup": "Anything you would like me to clarify?",
+    "priority": 2
+  },
+  {
+    "id": "what_makes_different",
+    "title": "What makes it different",
+    "keywords": ["different", "differential", "why this one", "compared to others", "unique"],
+    "patterns": [
+      "what makes this different", "why this one and not another", "what is unique about it",
+      "how is it different from other toolkits", "why choose this"
+    ],
+    "response": "Three things: everything works from the USB with no install on your own PC, the offline driver pack solves the no-internet moment right after a format, and the updater keeps the installers current instead of leaving you with a stale collection.",
+    "followup": "Would you like to know what's included in detail?",
+    "priority": 2
+  },
+  {
+    "id": "still_hesitating",
+    "title": "Still hesitating",
+    "keywords": ["not sure", "hesitating", "thinking about it", "maybe later", "doubt"],
+    "patterns": [
+      "i am still not sure", "i need to think about it", "maybe later", "i have doubts",
+      "i am hesitant", "let me think", "not convinced yet"
+    ],
+    "response": "That is fine — take the decision on facts, not pressure. Ask me anything else you want checked: your Windows version, a specific brand, the driver coverage or the interface. If it does not fit your workflow, better to find out now than after paying.",
+    "followup": "What is the part you are least sure about?",
+    "priority": 2
+  }
+]

@@ -1,0 +1,117 @@
+[
+  {
+    "id": "common_issues",
+    "title": "Common issues and fixes",
+    "keywords": [
+      "problems",
+      "issues",
+      "not working",
+      "troubleshoot",
+      "fix"
+    ],
+    "patterns": [
+      "what problems can happen",
+      "what if something does not work",
+      "common problems",
+      "troubleshooting",
+      "i have a problem",
+      "something is not working"
+    ],
+    "response": "The two most common hiccups are antivirus false positives during a batch run and an incomplete extraction (a file missing because the archive was not fully unzipped). Both have quick fixes and are covered in the members area guide. Anything stranger, email {{SUPPORT_EMAIL}}.",
+    "followup": "Which issue are you running into?",
+    "priority": 2
+  },
+  {
+    "id": "program_install_error",
+    "title": "A program failed to install",
+    "keywords": [
+      "install failed",
+      "error installing",
+      "didn't install",
+      "setup error"
+    ],
+    "patterns": [
+      "one program did not install",
+      "the install failed",
+      "i got an error installing a program",
+      "the installer crashed",
+      "a program will not install",
+      "setup error"
+    ],
+    "response": "Re-run just that program from the launcher. If it fails again, check that your antivirus did not quarantine it, and confirm the file extracted completely from the archive. Persistent failure on one title? Email {{SUPPORT_EMAIL}} with the program name and the Windows version.",
+    "followup": "Do you want to tell us which one it was?",
+    "priority": 2
+  },
+  {
+    "id": "access_denied",
+    "title": "Access or download blocked",
+    "keywords": [
+      "blocked",
+      "denied",
+      "link expired",
+      "no permission",
+      "quarantined"
+    ],
+    "patterns": [
+      "my access was blocked",
+      "the link says expired",
+      "permission denied",
+      "the browser blocked the download",
+      "windows blocked the file",
+      "smart screen warning"
+    ],
+    "response": "Windows SmartScreen and some browsers flag installer files from downloads — click through with 'Keep' and 'More info → Run anyway', or use the file's properties to unblock it after downloading. If a link says expired, email {{SUPPORT_EMAIL}} for a fresh one.",
+    "followup": "Would you like the step-by-step for unblocking files?",
+    "priority": 2
+  },
+  {
+    "id": "unzip_files",
+    "title": "Extracting the package",
+    "keywords": [
+      "unzip",
+      "extract",
+      "rar",
+      "zip",
+      "archive"
+    ],
+    "patterns": [
+      "how do i extract the files",
+      "the file is a zip",
+      "rar file",
+      "how do i unzip",
+      "extraction failed",
+      "what do i use to extract"
+    ],
+    "response": "Use 7-Zip or WinRAR (both free) and extract the whole archive before copying anything to the USB drive. Extract into a folder first, then copy that folder — copying a half-extracted archive is the single most common setup mistake.",
+    "followup": "Do you want the USB preparation steps?",
+    "priority": 2
+  },
+  {
+    "id": "internet_needed",
+    "title": "Which parts need internet",
+    "keywords": [
+      "connection",
+      "internet",
+      "need a connection",
+      "needs internet",
+      "no internet",
+      "offline",
+      "online",
+      "without internet"
+    ],
+    "patterns": [
+      "can i use it offline",
+      "can it work without internet",
+      "do i need internet",
+      "does everything work offline",
+      "does everything work without a connection",
+      "does it need internet",
+      "internet required",
+      "is internet required",
+      "which parts need a connection"
+    ],
+    "response": "Drivers are fully offline — that is the critical part right after a format. Program installers mostly run from the USB drive as well; a few titles fetch components from the vendor during installation, so a connection helps, but it is never required to get the machine usable.",
+    "followup": "Anything else about offline use?",
+    "priority": 3
+  }
+]

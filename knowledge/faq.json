@@ -1,0 +1,2660 @@
+[
+  {
+    "id": "future_updates",
+    "title": "Future updates",
+    "keywords": [
+      "future updates",
+      "new versions",
+      "free updates",
+      "upgrade",
+      "new build"
+    ],
+    "patterns": [
+      "do i get future updates",
+      "are updates free",
+      "what about new versions",
+      "do i have to pay again for updates",
+      "will you update the package",
+      "new releases"
+    ],
+    "response": "Future updates are included at no extra cost. New installer versions come through the built-in updater, and when we refresh the package itself you can re-download it from your access e-mail.",
+    "followup": "Anything else about the updates?",
+    "priority": 3
+  },
+  {
+    "id": "recover_access",
+    "title": "Recovering your access",
+    "keywords": [
+      "cannot download",
+      "forgot",
+      "link does not work",
+      "lost link",
+      "lost the link",
+      "recover",
+      "recover access",
+      "resend",
+      "resend the link"
+    ],
+    "patterns": [
+      "can you resend the link",
+      "how do i recover my access",
+      "i cannot find my purchase",
+      "i lost my download link",
+      "i lost the link",
+      "lost download link",
+      "my download link is gone",
+      "recover my files",
+      "resend access",
+      "resend the download link",
+      "the link is not working anymore"
+    ],
+    "response": "Email {{SUPPORT_EMAIL}} with the e-mail address you used at checkout, or a copy of the receipt. We will resend the download links and access details.",
+    "followup": "Anything else I can help with?",
+    "priority": 3
+  },
+  {
+    "id": "multiple_downloads",
+    "title": "Downloading more than once",
+    "keywords": [
+      "download again",
+      "multiple downloads",
+      "new computer",
+      "re-download"
+    ],
+    "patterns": [
+      "can i download it again",
+      "how many times can i download",
+      "i got a new computer",
+      "re-download the files",
+      "download limit"
+    ],
+    "response": "Download as many times as you need — there is no limit. New laptop, reinstalled Windows, or a corrupted copy on the drive: just grab the package again from your email link.",
+    "followup": "Anything else about accessing your files?",
+    "priority": 2
+  },
+  {
+    "id": "how_updates_work",
+    "title": "How updates reach you",
+    "keywords": [
+      "how do updates work",
+      "updater",
+      "refresh installers",
+      "update process"
+    ],
+    "patterns": [
+      "how do updates work",
+      "how do i get the new versions",
+      "how does the updater work",
+      "how do i refresh my installers",
+      "how do i update the programs on the usb"
+    ],
+    "response": "Open the updater inside the toolkit. It lists each application with its last update date and the target folder, and lets you download the newest installer into the right place on your drive, with one click per program.",
+    "followup": "Do you want the tutorial link?",
+    "priority": 2
+  },
+  {
+    "id": "included_bonuses",
+    "title": "What comes as a bonus",
+    "keywords": [
+      "bonus",
+      "extras",
+      "included free",
+      "additional"
+    ],
+    "patterns": [
+      "what bonuses are included",
+      "what extras do i get",
+      "is there anything extra",
+      "any bonus tools",
+      "what else comes with it",
+      "does it include tutorials"
+    ],
+    "response": "The two extra tools are the **built-in updater** (keeps every installer current) and the **Windows tweaks panel** (post-format jobs in one click). Both are included in the same one-time price of {{PRICE}}, along with the setup tutorials in the members area.",
+    "followup": "Would you like to see the tweaks list?",
+    "priority": 2
+  },
+  {
+    "id": "updater_bonus",
+    "title": "The updater",
+    "keywords": [
+      "updater",
+      "keeps current",
+      "installer updater"
+    ],
+    "patterns": [
+      "tell me about the updater",
+      "is the updater included",
+      "how does the installer updater help",
+      "does it keep programs updated",
+      "updater details"
+    ],
+    "response": "The updater is a panel that shows every application in the package with its last update date, and downloads the newest installer straight into the correct folder on your drive. It is the difference between a USB stick you trust for years and one that is obsolete in three months.",
+    "followup": "Do you want the feature list?",
+    "priority": 2
+  },
+  {
+    "id": "tweaks_bonus",
+    "title": "The tweaks panel",
+    "keywords": [
+      "tweaks",
+      "optimisation",
+      "one click fixes",
+      "setup shortcuts"
+    ],
+    "patterns": [
+      "tell me about the tweaks",
+      "is the tweaks panel included",
+      "what can the tweaks do",
+      "post format tweaks",
+      "windows optimisation panel"
+    ],
+    "response": "It groups the repetitive post-format chores into single clicks: desktop and explorer icons, power plans, temp file cleanup, OneDrive control, the Windows 11 context menu and Windows Update repair — the things you do on nearly every machine anyway.",
+    "followup": "Anything else you'd like to know?",
+    "priority": 2
+  },
+  {
+    "id": "time_savings",
+    "title": "How much time it saves",
+    "keywords": [
+      "time saved",
+      "how long",
+      "faster",
+      "save time",
+      "per machine"
+    ],
+    "patterns": [
+      "how much time does it save",
+      "how many hours",
+      "is it faster than doing it manually",
+      "what is the time saving",
+      "per machine how much time"
+    ],
+    "response": "Technicians report around an hour saved per machine, mainly from not installing programs one by one and not hunting drivers on a machine that has no internet. Time it once with a stopwatch on your own bench — the queue runs while you do something else.",
+    "followup": "Would you like the purchase link?",
+    "priority": 2
+  },
+  {
+    "id": "tutorials",
+    "title": "Tutorials included",
+    "keywords": [
+      "tutorial",
+      "guide",
+      "videos",
+      "instructions",
+      "how to"
+    ],
+    "patterns": [
+      "are there tutorials",
+      "is there a guide",
+      "do you include videos",
+      "step by step instructions",
+      "how do i learn to use it",
+      "is there a manual"
+    ],
+    "response": "The members area includes step-by-step material showing how to download the package, extract it, prepare the USB drive and run the launcher and driver panel. Support answers specific questions by e-mail as well.",
+    "followup": "Do you want to know how support works?",
+    "priority": 2
+  },
+  {
+    "id": "general_compat",
+    "title": "General compatibility",
+    "keywords": [
+      "compatible",
+      "compatibility",
+      "will it work",
+      "desktop",
+      "laptop"
+    ],
+    "patterns": [
+      "is it compatible",
+      "will it work on my computer",
+      "compatibility",
+      "does it work on desktops and laptops",
+      "system requirements",
+      "what do i need to run it"
+    ],
+    "response": "It runs on Windows 10 and Windows 11 (64-bit) on desktops and laptops, including older machines still on Windows 7. The toolkit itself runs from your USB drive, so it does not need to be installed on any PC.",
+    "followup": "Do you want to know about driver coverage?",
+    "priority": 3
+  },
+  {
+    "id": "brands",
+    "title": "Brands supported",
+    "keywords": [
+      "brand",
+      "dell",
+      "hp",
+      "lenovo",
+      "acer",
+      "asus",
+      "which brands"
+    ],
+    "patterns": [
+      "which brands are supported",
+      "does it work on dell",
+      "hp laptops",
+      "lenovo thinkpad",
+      "acer",
+      "asus",
+      "does it work on any brand",
+      "oem machines"
+    ],
+    "response": "Any brand: Dell, HP, Lenovo, Acer, Asus, MSI, Samsung, Toshiba and custom-built desktops. Driver detection is hardware-based, not brand-based, so it also handles generic and whitebox machines.",
+    "followup": "Do you want the detail on the offline driver pack?",
+    "priority": 2
+  },
+  {
+    "id": "specific_drivers",
+    "title": "Which drivers are covered",
+    "keywords": [
+      "driver coverage",
+      "which drivers",
+      "chipset",
+      "bluetooth",
+      "audio",
+      "video"
+    ],
+    "patterns": [
+      "which drivers are included",
+      "does it cover my drivers",
+      "chipset drivers",
+      "audio drivers",
+      "video drivers",
+      "bluetooth driver",
+      "lan driver",
+      "which hardware is covered"
+    ],
+    "response": "The offline pack covers motherboard and chipset, LAN, Wi-Fi, Bluetooth, audio, video and the usual peripheral components. For very new or exotic hardware that shipped after the pack was built, the updater lets you pull the freshest installer from the panel.",
+    "followup": "Should we check a specific model or component?",
+    "priority": 2
+  },
+  {
+    "id": "buy_now",
+    "title": "How to buy",
+    "keywords": [
+      "buy",
+      "purchase",
+      "link",
+      "order",
+      "checkout",
+      "subscribe"
+    ],
+    "patterns": [
+      "how do i buy",
+      "where can i buy",
+      "purchase link",
+      "i want to buy",
+      "give me the link",
+      "how do i order",
+      "checkout link",
+      "buy the toolkit",
+      "i want this",
+      "ready to buy"
+    ],
+    "response": "Ready when you are! Click the buy button on this page (or use this link: {{CHECKOUT_LINK}}) to open the secure checkout. Right after the payment is confirmed you get an e-mail with your download links.",
+    "followup": "Anything you want to confirm before you check out?",
+    "priority": 3
+  },
+  {
+    "id": "checkout_error",
+    "title": "Error at checkout",
+    "keywords": [
+      "error",
+      "checkout problem",
+      "page error",
+      "won't load",
+      "failed"
+    ],
+    "patterns": [
+      "error at checkout",
+      "the checkout page failed",
+      "checkout is not working",
+      "i get an error",
+      "the page keeps loading",
+      "cant complete the purchase",
+      "payment page error",
+      "checkout crashed"
+    ],
+    "response": "That is usually a browser or connection hiccup. Try: refresh the checkout page, switch to another browser or an incognito window, and disable any content blockers for the page. If it still fails, email {{SUPPORT_EMAIL}} and we will send you a direct link.",
+    "followup": "Want me to note your e-mail for follow-up?",
+    "priority": 2
+  },
+  {
+    "id": "payment_declined",
+    "title": "Payment declined",
+    "keywords": [
+      "declined",
+      "refused",
+      "card rejected",
+      "not authorized",
+      "bank blocked"
+    ],
+    "patterns": [
+      "my card was declined",
+      "payment declined",
+      "card was refused",
+      "payment was not approved",
+      "bank blocked my card",
+      "card rejected",
+      "why was my payment declined",
+      "payment failed"
+    ],
+    "response": "Declines are usually a bank-side protection on international or online charges. Call your bank and authorize the transaction, or try another card. Some buyers also find a wallet option (like PayPal) at checkout, which can bypass the card issuer's block.",
+    "followup": "Would you like to try the checkout link again?",
+    "priority": 2
+  },
+  {
+    "id": "payment_approved",
+    "title": "Payment approved",
+    "keywords": [
+      "approved",
+      "paid",
+      "confirm",
+      "receipt",
+      "next step"
+    ],
+    "patterns": [
+      "i paid",
+      "payment approved",
+      "i already bought it",
+      "where is my download",
+      "i paid and got nothing",
+      "did my payment go through",
+      "payment confirmed"
+    ],
+    "response": "As soon as the payment is approved, the access e-mail is sent automatically to the address you used at checkout. Check your inbox, then the spam and promotions folders. If it has not arrived within about 15 minutes, email {{SUPPORT_EMAIL}} with your order details and we will resend it.",
+    "followup": "Do you want help preparing the USB drive once the download arrives?",
+    "priority": 3
+  },
+  {
+    "id": "duplicate_charge",
+    "title": "Charged twice",
+    "keywords": [
+      "charged twice",
+      "duplicate",
+      "double charge",
+      "two charges",
+      "refund extra"
+    ],
+    "patterns": [
+      "i was charged twice",
+      "duplicate charge",
+      "double payment",
+      "two charges on my card",
+      "i paid two times",
+      "extra charge"
+    ],
+    "response": "Sorry about that — it occasionally happens when a payment is retried. Send the transaction details to {{SUPPORT_EMAIL}} and we will have the extra charge refunded through the processor. Nothing is kept that you did not intend to pay.",
+    "followup": "Would you like to send us the details now?",
+    "priority": 2
+  },
+  {
+    "id": "international_buy",
+    "title": "Buying from another country",
+    "keywords": [
+      "buy from abroad",
+      "international card",
+      "foreign",
+      "overseas"
+    ],
+    "patterns": [
+      "can i buy from another country",
+      "international purchase",
+      "i live outside the us",
+      "can i use an international card",
+      "buy from canada",
+      "buy from europe",
+      "overseas purchase"
+    ],
+    "response": "Yes. The toolkit is a digital product, so you can buy and download it from anywhere. Checkout is in USD at {{PRICE}}, and an international card or a PayPal-style wallet both work.",
+    "followup": "Would you like the checkout link?",
+    "priority": 1
+  },
+  {
+    "id": "lifetime_access",
+    "title": "Lifetime access",
+    "keywords": [
+      "lifetime",
+      "forever",
+      "subscription",
+      "monthly",
+      "renewal"
+    ],
+    "patterns": [
+      "is it lifetime",
+      "is there a subscription",
+      "do i pay monthly",
+      "am i charged again",
+      "does it expire",
+      "is it a yearly fee",
+      "one time payment",
+      "do i have to renew"
+    ],
+    "response": "It is a **one-time payment of {{PRICE}}** — no subscription, no renewal, no per-machine fee. Your access and future updates stay available for as long as the toolkit exists.",
+    "followup": "Would you like the purchase link?",
+    "priority": 3
+  },
+  {
+    "id": "login",
+    "title": "Logging in",
+    "keywords": [
+      "login",
+      "sign in",
+      "access",
+      "account",
+      "password"
+    ],
+    "patterns": [
+      "how do i log in",
+      "where do i sign in",
+      "i cannot access the members area",
+      "how do i get in",
+      "there is no password",
+      "login link",
+      "access details"
+    ],
+    "response": "Your access details arrive in the e-mail sent after purchase. Open the link in that e-mail to reach the members area and your downloads — no separate signup needed.",
+    "followup": "Do you want me to explain what the e-mail includes?",
+    "priority": 2
+  },
+  {
+    "id": "password",
+    "title": "Password problems",
+    "keywords": [
+      "password",
+      "forgot password",
+      "reset",
+      "no password"
+    ],
+    "patterns": [
+      "i forgot my password",
+      "how do i reset the password",
+      "my password does not work",
+      "i did not get a password",
+      "reset access"
+    ],
+    "response": "Depending on the delivery format, you either open a direct link from your e-mail or set a password on first access. If a password reset is not working, email {{SUPPORT_EMAIL}} with the address used at checkout and we will restore access.",
+    "followup": "Anything else about accessing your files?",
+    "priority": 1
+  },
+  {
+    "id": "access_duration",
+    "title": "How long access lasts",
+    "keywords": [
+      "access duration",
+      "how long access",
+      "expire",
+      "time limit"
+    ],
+    "patterns": [
+      "how long do i have access",
+      "does my access expire",
+      "is there a time limit",
+      "can i use it next year",
+      "how long can i download"
+    ],
+    "response": "There is no deadline. Your access does not expire, and you can download the package again whenever you need it — including after a computer upgrade or a fresh Windows install on your own machine.",
+    "followup": "Anything else you'd like to check?",
+    "priority": 1
+  },
+  {
+    "id": "lost_access",
+    "title": "Lost access",
+    "keywords": [
+      "lost access",
+      "cannot find",
+      "deleted email",
+      "old computer"
+    ],
+    "patterns": [
+      "i lost my access",
+      "i cannot find the email anymore",
+      "i deleted the files",
+      "my old computer died",
+      "i need the links again",
+      "recover access"
+    ],
+    "response": "No problem. Email {{SUPPORT_EMAIL}} with the e-mail address used at checkout (or a receipt) and we will resend your links. Buyers regularly re-download years later — that is expected.",
+    "followup": "Should I give you the support address again?",
+    "priority": 2
+  },
+  {
+    "id": "change_email",
+    "title": "Wrong e-mail address",
+    "keywords": [
+      "wrong email",
+      "typo",
+      "change email",
+      "update email"
+    ],
+    "patterns": [
+      "i typed the wrong email",
+      "wrong email address",
+      "can you change my email",
+      "i used the wrong address",
+      "update my email"
+    ],
+    "response": "Easy to fix. Email {{SUPPORT_EMAIL}} with the address you typed and the correct one, plus your payment details, and we will re-issue the access to the right inbox.",
+    "followup": "Anything else I can help with?",
+    "priority": 2
+  },
+  {
+    "id": "first_access",
+    "title": "First steps after buying",
+    "keywords": [
+      "first access",
+      "getting started",
+      "start",
+      "begin",
+      "setup"
+    ],
+    "patterns": [
+      "where do i start",
+      "what do i do first",
+      "how do i begin after purchase",
+      "first steps",
+      "getting started",
+      "im new how do i use it"
+    ],
+    "response": "Three steps: 1) open your access e-mail and download the package; 2) extract it and copy the folder to your {{USB_SIZE}} USB drive; 3) on a client machine, run the launcher, tick the programs and start the queue. The video tutorial covers each step.",
+    "followup": "Want me to explain the driver step as well?",
+    "priority": 2
+  },
+  {
+    "id": "how_download",
+    "title": "How to download",
+    "keywords": [
+      "download",
+      "how to download",
+      "get the files",
+      "extract"
+    ],
+    "patterns": [
+      "how do i download",
+      "how to download the files",
+      "where do i get the files",
+      "how do i get started after buying",
+      "download steps",
+      "first download"
+    ],
+    "response": "After payment: open the e-mail, click the download link, save the archive to a folder with enough free space, then extract it (7-Zip or WinRAR, both free) and copy the extracted folder to your USB drive. The members area has a video walking through it.",
+    "followup": "Want the checklist for preparing the drive?",
+    "priority": 2
+  },
+  {
+    "id": "download_speed",
+    "title": "How long the download takes",
+    "keywords": [
+      "bandwidth",
+      "download duration",
+      "download take",
+      "download time",
+      "how long does the download take",
+      "how long download",
+      "slow connection",
+      "speed"
+    ],
+    "patterns": [
+      "can i pause the download",
+      "download speed",
+      "how big is the download file",
+      "how long does it take to download",
+      "how long does the download take",
+      "how long will the download take",
+      "is the download long",
+      "slow internet",
+      "will it take hours"
+    ],
+    "response": "It depends on your connection, and cloud drives let you pause and resume. On a typical 100 Mbps business line it takes well under an hour; on a slower link, start it and come back later. Downloads are unlimited and you can re-download whenever you want.",
+    "followup": "Any other download questions?",
+    "priority": 3
+  },
+  {
+    "id": "copy_to_usb",
+    "title": "Copying to the USB drive",
+    "keywords": [
+      "copy to usb",
+      "put on usb",
+      "flash drive",
+      "format usb",
+      "prepare usb"
+    ],
+    "patterns": [
+      "how do i put it on a usb",
+      "how do i copy the files",
+      "do i need to format the usb",
+      "how do i prepare the usb drive",
+      "which file system",
+      "exfat or ntfs"
+    ],
+    "response": "Use a {{USB_SIZE}} USB 3.0 drive formatted as exFAT or NTFS, then copy the whole extracted folder to it — keeping the folder structure intact matters. The video tutorial in the members area shows this step by step.",
+    "followup": "Should I also explain how the toolkit runs from the drive?",
+    "priority": 2
+  },
+  {
+    "id": "how_receive",
+    "title": "How the product is delivered",
+    "keywords": [
+      "delivery",
+      "how do i get it",
+      "receive",
+      "shipping",
+      "send"
+    ],
+    "patterns": [
+      "how do i receive it",
+      "how is it delivered",
+      "do you ship it",
+      "is there shipping",
+      "do i get a usb in the mail",
+      "how do i get the files",
+      "delivery method",
+      "how will i get it"
+    ],
+    "response": "It is 100% digital — nothing is shipped. Right after payment you receive an e-mail with the download links and your access details. You download the files, extract them and copy the folder to your USB drive.",
+    "followup": "Do you want the exact steps to prepare the drive?",
+    "priority": 3
+  },
+  {
+    "id": "digital_delivery",
+    "title": "Digital download",
+    "keywords": [
+      "digital",
+      "download",
+      "no shipping",
+      "online",
+      "instant"
+    ],
+    "patterns": [
+      "is it digital",
+      "is it a download",
+      "no physical product",
+      "is it a physical kit",
+      "do i get a usb drive with it",
+      "instant access",
+      "is it online"
+    ],
+    "response": "Yes — it is a digital download, not a physical USB drive. The packaging is designed so you can build your own {{USB_SIZE}} drive from the files in a few minutes. That also means no shipping cost, no customs and no waiting.",
+    "followup": "Should I send you the guide to building the drive?",
+    "priority": 3
+  },
+  {
+    "id": "delivery_time",
+    "title": "How long delivery takes",
+    "keywords": [
+      "delivery time",
+      "how fast",
+      "how long",
+      "how soon",
+      "immediate",
+      "when",
+      "when do i get",
+      "when do i receive"
+    ],
+    "patterns": [
+      "how fast is the delivery",
+      "how long does delivery take",
+      "how long until i receive it",
+      "how soon do i get it",
+      "instant delivery",
+      "is it immediate",
+      "same day",
+      "when do i get access",
+      "when do i get the files",
+      "when do i receive the files",
+      "when will i get the download"
+    ],
+    "response": "Delivery is automatic. As soon as the payment is approved, the access e-mail goes out — usually within a couple of minutes. If it is not in your inbox, check spam and promotions first; if more than 15 minutes pass, email {{SUPPORT_EMAIL}}.",
+    "followup": "Would you like the purchase link?",
+    "priority": 3
+  },
+  {
+    "id": "email_delivery",
+    "title": "Delivery e-mail",
+    "keywords": [
+      "email",
+      "didn't arrive",
+      "spam",
+      "inbox",
+      "confirmation"
+    ],
+    "patterns": [
+      "i did not get the email",
+      "the email did not arrive",
+      "check spam",
+      "no confirmation email",
+      "email went to junk",
+      "i used the wrong email",
+      "resend the email"
+    ],
+    "response": "The links are sent only to the e-mail used at checkout. Check spam, junk and promotions folders and search for the product name. Typed the address wrong or still nothing after 15 minutes? Email {{SUPPORT_EMAIL}} with your order details and we will resend the access.",
+    "followup": "Do you want me to note this for support follow-up?",
+    "priority": 2
+  },
+  {
+    "id": "download_links",
+    "title": "Download links",
+    "keywords": [
+      "download links",
+      "where are the files",
+      "google drive",
+      "links"
+    ],
+    "patterns": [
+      "where are the download links",
+      "where do i download",
+      "how do i download the files",
+      "the links in the email",
+      "download page",
+      "direct download"
+    ],
+    "response": "Your e-mail contains the links to the download package plus access to the members area, where the files are organised and the setup tutorials live. If a link looks expired, email {{SUPPORT_EMAIL}} and we will issue a fresh one.",
+    "followup": "Do you want help with extraction and copying to the USB?",
+    "priority": 2
+  },
+  {
+    "id": "download_error",
+    "title": "Download problems",
+    "keywords": [
+      "download failed",
+      "download error",
+      "slow",
+      "interrupted",
+      "link broken"
+    ],
+    "patterns": [
+      "the download failed",
+      "download keeps stopping",
+      "the link does not work",
+      "download error",
+      "download is too slow",
+      "download interrupted",
+      "the file is corrupted"
+    ],
+    "response": "Try downloading in an incognito window or another browser, and use a stable connection. Most cloud drives let you pause and resume, so a dropped connection is not a problem. If the link itself is dead, email {{SUPPORT_EMAIL}} for a new one.",
+    "followup": "Anything else about the download?",
+    "priority": 2
+  },
+  {
+    "id": "members_area",
+    "title": "Members area",
+    "keywords": [
+      "members area",
+      "dashboard",
+      "account",
+      "files area"
+    ],
+    "patterns": [
+      "is there a members area",
+      "where is my dashboard",
+      "how do i access the files",
+      "account area",
+      "do i get an account",
+      "where are the tutorials"
+    ],
+    "response": "Yes — your access e-mail takes you to a members area with all download links, the organised package and the step-by-step setup tutorials. The updater inside the toolkit handles future versions from there.",
+    "followup": "Would you like the purchase link so you can get started?",
+    "priority": 1
+  },
+  {
+    "id": "greeting",
+    "title": "Greeting",
+    "keywords": [
+      "hi",
+      "hello",
+      "hey",
+      "good morning",
+      "good afternoon",
+      "thanks",
+      "thank you"
+    ],
+    "patterns": [
+      "hi",
+      "hello",
+      "hey",
+      "hi there",
+      "hello there",
+      "good morning",
+      "good afternoon",
+      "good evening",
+      "how are you",
+      "thanks",
+      "thank you",
+      "thanks a lot",
+      "bye",
+      "goodbye",
+      "see you",
+      "yo",
+      "howdy"
+    ],
+    "response": "Hi! 👋 Welcome to the {{PRODUCT_NAME}}. I'm Ana, the assistant for the toolkit — happy to answer anything about what's included, price, delivery, compatibility or setting up your USB drive.",
+    "followup": "What would you like to know first?",
+    "priority": 1
+  },
+  {
+    "id": "what_can_you_do",
+    "title": "What the assistant does",
+    "keywords": [
+      "assistant",
+      "bot",
+      "help me",
+      "what can you do",
+      "are you human",
+      "chat"
+    ],
+    "patterns": [
+      "what can you do",
+      "can you help me",
+      "how can you help",
+      "are you a bot",
+      "are you a robot",
+      "are you human",
+      "what are you",
+      "who are you",
+      "help me decide",
+      "i have a question"
+    ],
+    "response": "I'm Ana, the virtual assistant for the {{PRODUCT_NAME}}. I can explain what's inside the toolkit, how payment and delivery work, whether it fits your Windows version, how to prepare your USB drive and what support you get.",
+    "followup": "What would you like to look into?",
+    "priority": 1
+  },
+  {
+    "id": "more_information",
+    "title": "Quick overview",
+    "keywords": [
+      "more info",
+      "tell me more",
+      "overview",
+      "summary",
+      "about the toolkit"
+    ],
+    "patterns": [
+      "tell me more",
+      "more information",
+      "more info",
+      "give me an overview",
+      "what is the offer",
+      "summarize",
+      "summary",
+      "main features",
+      "about this toolkit"
+    ],
+    "response": "Quick version: the {{PRODUCT_NAME}} is a USB-ready toolkit for PC repair work. It batch-installs **160+ programs** in one click, installs **chipset, network, audio and video drivers offline**, includes a built-in updater and a Windows tweaks panel — all for a single payment of **{{PRICE}}**.",
+    "followup": "Should I walk you through what's included, or go straight to the purchase link?",
+    "priority": 1
+  },
+  {
+    "id": "how_install",
+    "title": "How to use the toolkit",
+    "keywords": [
+      "how to install",
+      "setup",
+      "use it",
+      "run it",
+      "instructions"
+    ],
+    "patterns": [
+      "how do i install it",
+      "how do i use the toolkit",
+      "how does it work",
+      "setup instructions",
+      "how do i run it",
+      "is it hard to set up",
+      "installation steps"
+    ],
+    "response": "Download the package, extract it, copy the folder to your {{USB_SIZE}} USB drive. On the machine being serviced, open the launcher, tick the programs you want and start the queue. The driver panel runs the same way — pick the hardware category and let it install.",
+    "followup": "Would you like the setup tutorial link after purchase?",
+    "priority": 3
+  },
+  {
+    "id": "difficulty",
+    "title": "Is it difficult to use",
+    "keywords": [
+      "difficult",
+      "complicated",
+      "hard",
+      "easy",
+      "learning curve"
+    ],
+    "patterns": [
+      "is it difficult",
+      "is it complicated",
+      "is it easy to use",
+      "do i need to be an expert",
+      "will i understand it",
+      "is it for beginners",
+      "do i need training"
+    ],
+    "response": "If you can format a PC, you can use this. The launcher is a list with checkboxes and a run button, and the drivers install from a category panel. The video tutorials cover the whole flow, and support answers questions from real technicians every day.",
+    "followup": "Want to see the interface screenshots?",
+    "priority": 2
+  },
+  {
+    "id": "for_beginners",
+    "title": "For beginners",
+    "keywords": [
+      "beginner",
+      "new to this",
+      "starting out",
+      "inexperienced",
+      "hobbyist"
+    ],
+    "patterns": [
+      "i am a beginner",
+      "im new to computer repair",
+      "is it good for beginners",
+      "i do this part time",
+      "i am just starting my shop",
+      "no experience"
+    ],
+    "response": "Beginners benefit the most, because the automation removes the manual steps where mistakes happen. You install programs and drivers in a predictable order every time — exactly what you want while you are still building confidence.",
+    "followup": "Would you like to know what support is included?",
+    "priority": 2
+  },
+  {
+    "id": "for_professionals",
+    "title": "For experienced technicians",
+    "keywords": [
+      "professional",
+      "experienced",
+      "shop owner",
+      "volume",
+      "many machines"
+    ],
+    "patterns": [
+      "i am an experienced technician",
+      "is it good for a repair shop",
+      "i do this for a living",
+      "does it help with volume",
+      "for professionals",
+      "i repair many computers"
+    ],
+    "response": "For a working bench it is about throughput: instead of babysitting setup wizards, you queue everything and move to the next job. Drivers offline means you are never stuck waiting on a download before a machine can go online.",
+    "followup": "Do you want to see what's included before deciding?",
+    "priority": 1
+  },
+  {
+    "id": "bootable_usb",
+    "title": "Does it need to be bootable",
+    "keywords": [
+      "bootable",
+      "boot",
+      "bios",
+      "usb boot",
+      "winpe"
+    ],
+    "patterns": [
+      "is the usb bootable",
+      "do i need to boot from it",
+      "does it replace my windows installer",
+      "do i need to make it bootable",
+      "boot from usb",
+      "does it install windows"
+    ],
+    "response": "No. This is a post-install toolkit: you install Windows normally (your own ISO or media), then plug in the toolkit USB and run the launcher inside Windows. Nothing about your Windows installer or boot setup changes.",
+    "followup": "Want to know what it does right after a format?",
+    "priority": 2
+  },
+  {
+    "id": "after_format",
+    "title": "Right after a format",
+    "keywords": [
+      "after format",
+      "after formatting",
+      "format the pc",
+      "formatting",
+      "fresh install",
+      "new windows",
+      "post install",
+      "reinstall"
+    ],
+    "patterns": [
+      "after formatting the computer",
+      "does it help after installing windows",
+      "does it work after a format",
+      "fresh windows install",
+      "i just did a clean install",
+      "just formatted the pc",
+      "new install of windows",
+      "post installation",
+      "right after formatting",
+      "what about right after reinstalling windows",
+      "what if i format the pc"
+    ],
+    "response": "That is exactly the moment it is built for: brand-new Windows with no drivers and no software. Run the driver panel first to restore connectivity, then start the program queue while you set up the rest of the machine.",
+    "followup": "Do you want the order of operations we recommend?",
+    "priority": 3
+  },
+  {
+    "id": "remote_install",
+    "title": "Remote sessions",
+    "keywords": [
+      "remote",
+      "anydesk",
+      "teamviewer",
+      "remote support",
+      "offsite"
+    ],
+    "patterns": [
+      "can i use it remotely",
+      "does it work with anydesk",
+      "remote support sessions",
+      "can i use it with teamviewer",
+      "work from home repairs",
+      "remote installation"
+    ],
+    "response": "Yes. If you are connected through AnyDesk or TeamViewer, the launcher and driver panel run the same way. Just remember the drivers are on the USB drive, so either copy the needed driver folder across or run it locally.",
+    "followup": "Anything else about your workflow?",
+    "priority": 1
+  },
+  {
+    "id": "other_computers",
+    "title": "Using it on many computers",
+    "keywords": [
+      "many computers",
+      "unlimited",
+      "how many machines",
+      "multiple pcs",
+      "repeat use"
+    ],
+    "patterns": [
+      "can i use it on many computers",
+      "how many machines can i use it on",
+      "is there a limit",
+      "can i use it on client pcs",
+      "unlimited installs"
+    ],
+    "response": "Unlimited machines, including your clients' — that is the whole point of a repair-shop tool. There is no per-machine fee and no activation limit. The files stay on your USB drive; you install programs on the machine being serviced.",
+    "followup": "Would you like the purchase link?",
+    "priority": 2
+  },
+  {
+    "id": "backup",
+    "title": "Backup before formatting",
+    "keywords": [
+      "backup",
+      "save files",
+      "before format",
+      "data",
+      "client data"
+    ],
+    "patterns": [
+      "does it help with backups",
+      "can i back up client files",
+      "before formatting the pc",
+      "does it include backup tools",
+      "protect client data"
+    ],
+    "response": "The toolkit is about what happens after the format; it does not manage client backups. Keep using your usual backup routine for data before wiping a drive — the utilities in the package are for the setup phase, not for data rescue.",
+    "followup": "Anything else about your process?",
+    "priority": 1
+  },
+  {
+    "id": "usage_license",
+    "title": "Licence terms",
+    "keywords": [
+      "license",
+      "licence",
+      "terms",
+      "legal",
+      "allowed"
+    ],
+    "patterns": [
+      "what is the license",
+      "licence terms",
+      "how can i use it",
+      "is it legal to use",
+      "can i resell it",
+      "can i share it with my team",
+      "terms of use"
+    ],
+    "response": "The toolkit is a collection of installers for freely distributed, trial or vendor-supplied software, plus our own automation tools. You get a licence to use it in your own business; you cannot resell, rebrand or redistribute the package itself. Licensing each program for your client works the normal way.",
+    "followup": "Do you have a specific use case in mind?",
+    "priority": 2
+  },
+  {
+    "id": "commercial_use",
+    "title": "Commercial use",
+    "keywords": [
+      "commercial",
+      "business use",
+      "my shop",
+      "clients",
+      "for work"
+    ],
+    "patterns": [
+      "can i use it commercially",
+      "is it allowed in my shop",
+      "commercial licence",
+      "can i use it on client computers",
+      "business use",
+      "i run a repair business"
+    ],
+    "response": "Yes — it is built for commercial bench work in repair shops, IT support companies and freelance technician work. No per-client or per-machine licensing is required from us.",
+    "followup": "Would you like the purchase link?",
+    "priority": 3
+  },
+  {
+    "id": "personal_use",
+    "title": "Personal use",
+    "keywords": [
+      "personal",
+      "home use",
+      "my own pc",
+      "family"
+    ],
+    "patterns": [
+      "can i use it for personal use",
+      "just for my own computer",
+      "home use",
+      "for my family computers",
+      "i am not a professional"
+    ],
+    "response": "Absolutely. Plenty of buyers use it for their own machines, family PCs and side jobs. If it saves you one trip to a repair shop, it has already paid for itself.",
+    "followup": "Anything else you'd like to check?",
+    "priority": 2
+  },
+  {
+    "id": "how_many_machines",
+    "title": "Machine limit",
+    "keywords": [
+      "how many machines",
+      "limit",
+      "unlimited",
+      "activation limit"
+    ],
+    "patterns": [
+      "how many machines can i install it on",
+      "is there an activation limit",
+      "can i use it on unlimited computers",
+      "machine limit",
+      "does it lock to one pc"
+    ],
+    "response": "There is no machine limit and no activation. The toolkit lives on your USB drive, so you use it on as many machines as you want, for as long as you want.",
+    "followup": "Want the purchase link?",
+    "priority": 2
+  },
+  {
+    "id": "language",
+    "title": "Interface language",
+    "keywords": [
+      "language",
+      "english",
+      "portuguese",
+      "spanish",
+      "translation"
+    ],
+    "patterns": [
+      "what language is it in",
+      "is the interface in english",
+      "is there an english version",
+      "does it support other languages",
+      "is it in spanish",
+      "the interface language"
+    ],
+    "response": "Being straight with you: the automation panel's interface labels are in **Portuguese** in the current build — the screenshots on this page show exactly what you get. Program names, Windows itself and everything you install stay in your client's language. If the interface language is a dealbreaker, email {{SUPPORT_EMAIL}} before buying and we will show you the panel in detail.",
+    "followup": "Would you like to see the interface screenshots?",
+    "priority": 3
+  },
+  {
+    "id": "is_it_trustworthy",
+    "title": "Can this be trusted",
+    "keywords": [
+      "trustworthy",
+      "trust",
+      "legit",
+      "real",
+      "should i trust"
+    ],
+    "patterns": [
+      "is this trustworthy",
+      "should i trust this",
+      "is this legit",
+      "is this real",
+      "has anyone bought this",
+      "is this a fake site",
+      "how do i know it works"
+    ],
+    "response": "Fair question to ask about any toolkit you install for a customer. Two things you can check before paying: watch the demo video on this page to see the panel running, and email {{SUPPORT_EMAIL}} with any question — you can judge the answer yourself. Payment is processed by a third-party checkout that also protects your card details.",
+    "followup": "Would you like to see the interface screenshots or the demo video?",
+    "priority": 3
+  },
+  {
+    "id": "is_it_safe_to_buy",
+    "title": "Is the purchase safe",
+    "keywords": [
+      "safe to buy",
+      "secure purchase",
+      "scam",
+      "buyer protection"
+    ],
+    "patterns": [
+      "is it safe to buy",
+      "will i get scammed",
+      "is the purchase protected",
+      "do you have buyer protection",
+      "is checkout reliable",
+      "how do i know i get the files"
+    ],
+    "response": "You pay through a third-party checkout that handles the card data and follows its own buyer policy, so you are not sending money to a private account. Delivery happens automatically the moment the payment is approved, and support follows up if anything goes wrong.",
+    "followup": "Would you like the link so you can read the checkout terms?",
+    "priority": 2
+  },
+  {
+    "id": "virus_concern",
+    "title": "Are the files clean",
+    "keywords": [
+      "virus",
+      "malware",
+      "safe files",
+      "clean",
+      "infected"
+    ],
+    "patterns": [
+      "does it have a virus",
+      "are the files safe",
+      "is it malware",
+      "will it infect the pc",
+      "can i scan the files",
+      "why does defender flag it"
+    ],
+    "response": "The installers come from the software vendors themselves, and the package is tested on real benches. The usual caveat: bulk installers and driver packs frequently trigger false positives. Scan the folder for your own peace of mind before using it, and add an exception if something gets quarantined.",
+    "followup": "Do you want the steps for adding a Defender exception?",
+    "priority": 2
+  },
+  {
+    "id": "worth_it",
+    "title": "Is it worth it",
+    "keywords": [
+      "worth it",
+      "value for money",
+      "should i buy",
+      "justify"
+    ],
+    "patterns": [
+      "is it worth it",
+      "is it worth the money",
+      "should i buy this",
+      "is it good value",
+      "why is it so cheap",
+      "can it really be that cheap"
+    ],
+    "response": "Judge it against one machine: {{PRICE}} versus the hour you would otherwise spend installing programs and chasing drivers. If it saves you that hour twice, it has paid for itself. And it is cheap because it is a digital download with no shipping or production cost.",
+    "followup": "Would you like the purchase link?",
+    "priority": 3
+  },
+  {
+    "id": "does_it_really_work",
+    "title": "Does it really work",
+    "keywords": [
+      "does it work",
+      "proof",
+      "demonstration",
+      "show me",
+      "real"
+    ],
+    "patterns": [
+      "does it really work",
+      "how do i know it works",
+      "can you prove it",
+      "show me proof",
+      "any demonstration",
+      "is there a demo"
+    ],
+    "response": "Watch the demo video on this page — it shows the launcher and the driver panel running on a real machine. If you want to see something specific before buying, such as a particular program category or driver panel behaviour, just ask.",
+    "followup": "What would you like to see demonstrated?",
+    "priority": 2
+  },
+  {
+    "id": "reviews",
+    "title": "Customer reviews",
+    "keywords": [
+      "reviews",
+      "testimonials",
+      "feedback",
+      "other buyers",
+      "ratings"
+    ],
+    "patterns": [
+      "do you have reviews",
+      "any testimonials",
+      "what do other buyers say",
+      "customer feedback",
+      "is there any proof from customers",
+      "anyone recommend it"
+    ],
+    "response": "Honest answer: the toolkit has been sold and used by technicians in Brazil and Portugal for years, and that is where our feedback comes from. We are new to the US market, so we would rather earn your confidence with the demo, the screenshots and straight answers than with testimonials you cannot check.",
+    "followup": "Anything you would like me to clarify?",
+    "priority": 2
+  },
+  {
+    "id": "what_makes_different",
+    "title": "What makes it different",
+    "keywords": [
+      "different",
+      "differential",
+      "why this one",
+      "compared to others",
+      "unique"
+    ],
+    "patterns": [
+      "what makes this different",
+      "why this one and not another",
+      "what is unique about it",
+      "how is it different from other toolkits",
+      "why choose this"
+    ],
+    "response": "Three things: everything works from the USB with no install on your own PC, the offline driver pack solves the no-internet moment right after a format, and the updater keeps the installers current instead of leaving you with a stale collection.",
+    "followup": "Would you like to know what's included in detail?",
+    "priority": 2
+  },
+  {
+    "id": "still_hesitating",
+    "title": "Still hesitating",
+    "keywords": [
+      "not sure",
+      "hesitating",
+      "thinking about it",
+      "maybe later",
+      "doubt"
+    ],
+    "patterns": [
+      "i am still not sure",
+      "i need to think about it",
+      "maybe later",
+      "i have doubts",
+      "i am hesitant",
+      "let me think",
+      "not convinced yet"
+    ],
+    "response": "That is fine — take the decision on facts, not pressure. Ask me anything else you want checked: your Windows version, a specific brand, the driver coverage or the interface. If it does not fit your workflow, better to find out now than after paying.",
+    "followup": "What is the part you are least sure about?",
+    "priority": 2
+  },
+  {
+    "id": "how_to_pay",
+    "title": "How payment works",
+    "keywords": [
+      "how to pay",
+      "payment step",
+      "checkout",
+      "pay now",
+      "process payment"
+    ],
+    "patterns": [
+      "how does payment work",
+      "how do i complete the payment",
+      "what happens when i pay",
+      "how does the checkout work",
+      "payment process",
+      "is it instant",
+      "how long does approval take"
+    ],
+    "response": "You click the buy button, the checkout page opens, you choose a payment method and confirm. Digital card payments are usually approved within seconds, and the access e-mail follows immediately.",
+    "followup": "Want me to explain what the e-mail contains?",
+    "priority": 2
+  },
+  {
+    "id": "declined_payment",
+    "title": "Card keeps getting declined",
+    "keywords": [
+      "declined",
+      "rejected",
+      "declined twice",
+      "authorization",
+      "bank"
+    ],
+    "patterns": [
+      "my payment keeps getting declined",
+      "card declined twice",
+      "my card does not go through",
+      "bank declined the transaction",
+      "payment authorization failed",
+      "card not accepted"
+    ],
+    "response": "Repeated declines almost always come from the card issuer, not the checkout. Call the number on the back of your card, authorize the online charge, then try again — or use a different card or wallet option at checkout.",
+    "followup": "Would you like to try again with the link?",
+    "priority": 1
+  },
+  {
+    "id": "approved_payment",
+    "title": "What happens right after paying",
+    "keywords": [
+      "after payment",
+      "what now",
+      "next",
+      "access email"
+    ],
+    "patterns": [
+      "what happens after i pay",
+      "after the payment is approved",
+      "what do i get after paying",
+      "payment accepted what now",
+      "next step after purchase"
+    ],
+    "response": "After approval you get an e-mail with your download links and access details, plus the setup tutorial. Download the files, extract them and copy the folder to your {{USB_SIZE}} USB drive.",
+    "followup": "Should I walk you through the USB setup step by step?",
+    "priority": 2
+  },
+  {
+    "id": "payment_error",
+    "title": "Something went wrong while paying",
+    "keywords": [
+      "payment error",
+      "went wrong",
+      "problem paying",
+      "stuck"
+    ],
+    "patterns": [
+      "something went wrong with the payment",
+      "i got an error while paying",
+      "payment error",
+      "the payment is stuck",
+      "the page froze during payment",
+      "payment did not process"
+    ],
+    "response": "First check whether the charge actually appears on your card — if the page froze after approval, the e-mail is usually on the way anyway. If the payment failed or you were charged without receiving the links, email {{SUPPORT_EMAIL}} with the approximate time and amount and we will trace it.",
+    "followup": "Do you want the checkout link to try once more?",
+    "priority": 2
+  },
+  {
+    "id": "refund",
+    "title": "Refunds and cancellations",
+    "keywords": [
+      "refund",
+      "cancel",
+      "money back",
+      "return",
+      "not satisfied"
+    ],
+    "patterns": [
+      "how do refunds work",
+      "can i cancel",
+      "i want a refund",
+      "money back",
+      "i am not satisfied",
+      "cancel my purchase",
+      "refund request",
+      "does it have a guarantee"
+    ],
+    "response": "Because this is a digital download delivered instantly, refunds follow the buyer policy shown on the checkout page. {{GUARANTEE}} If anything is wrong with the files or the download, email {{SUPPORT_EMAIL}} and we will fix it or take care of you.",
+    "followup": "Anything you want to clarify before buying?",
+    "priority": 2
+  },
+  {
+    "id": "billing_statement",
+    "title": "What shows on my statement",
+    "keywords": [
+      "statement",
+      "charge appears",
+      "bank statement",
+      "billing",
+      "descriptor"
+    ],
+    "patterns": [
+      "what shows on my statement",
+      "how does the charge appear",
+      "name on my card statement",
+      "billing descriptor",
+      "what will i be charged",
+      "how is it billed"
+    ],
+    "response": "The charge appears on your statement in USD ({{PRICE}}) under the name of our checkout provider, which may differ from the product name. If you need a receipt or invoice for your records, email {{SUPPORT_EMAIL}}.",
+    "followup": "Anything else about the purchase?",
+    "priority": 1
+  },
+  {
+    "id": "price_main",
+    "title": "Price",
+    "keywords": [
+      "price",
+      "cost",
+      "how much",
+      "value",
+      "usd"
+    ],
+    "patterns": [
+      "how much is it",
+      "what is the price",
+      "how much does it cost",
+      "price",
+      "cost",
+      "how much",
+      "what does it cost",
+      "is it expensive",
+      "price in usd",
+      "how much do i pay",
+      "total price"
+    ],
+    "response": "The {{PRODUCT_NAME}} costs **{{PRICE}}** — a single one-time payment in USD, with no subscription and no renewal. That price includes all future updates, lifetime access and use in your repair business.",
+    "followup": "Would you like the purchase link, or do you have another question first?",
+    "priority": 3
+  },
+  {
+    "id": "is_it_a_promo",
+    "title": "Is the price promotional",
+    "keywords": [
+      "promo",
+      "promotion",
+      "sale",
+      "price change",
+      "increase"
+    ],
+    "patterns": [
+      "is it a promotion",
+      "is this a sale price",
+      "will the price go up",
+      "how long is the offer",
+      "is the price going to change",
+      "limited offer",
+      "when does the price end"
+    ],
+    "response": "The current price of **{{PRICE}}** is a launch price for our US release. It can be adjusted later as the package grows and support expands, but everyone who buys keeps lifetime access and future updates at no extra cost.",
+    "followup": "Do you want me to send you the checkout link?",
+    "priority": 1
+  },
+  {
+    "id": "discount",
+    "title": "Discounts",
+    "keywords": [
+      "discount",
+      "cheaper",
+      "lower price",
+      "deal",
+      "best price"
+    ],
+    "patterns": [
+      "is there a discount",
+      "can you make it cheaper",
+      "any deal",
+      "best price",
+      "lower the price",
+      "student discount",
+      "bulk discount",
+      "is there a cheaper option"
+    ],
+    "response": "**{{PRICE}}** is already the lowest price we offer for the complete toolkit — there is no higher price in effect and no coupon needed. Considering a single service call is usually billed well above that, most buyers pay it back on the first or second machine.",
+    "followup": "Shall I get you the purchase link?",
+    "priority": 1
+  },
+  {
+    "id": "coupon",
+    "title": "Coupon code",
+    "keywords": [
+      "coupon",
+      "promo code",
+      "voucher",
+      "code"
+    ],
+    "patterns": [
+      "do i need a coupon",
+      "is there a coupon code",
+      "promo code",
+      "discount code",
+      "voucher code",
+      "where do i put the code",
+      "coupon not working"
+    ],
+    "response": "No coupon needed — the {{PRICE}} price you see already reflects the current offer. Just use the buy button on this page and the total at checkout should read {{PRICE}}.",
+    "followup": "Want the link so you can check the total yourself?",
+    "priority": 1
+  },
+  {
+    "id": "international_price",
+    "title": "International buyers",
+    "keywords": [
+      "international",
+      "outside us",
+      "europe",
+      "canada",
+      "uk",
+      "currency"
+    ],
+    "patterns": [
+      "do you sell internationally",
+      "can i buy from europe",
+      "i am not in the us",
+      "do you ship internationally",
+      "can i pay from canada",
+      "uk buyers",
+      "other countries",
+      "what currency is it"
+    ],
+    "response": "Yes — the toolkit is a digital download, so it works anywhere. Checkout is in **USD** and the price is {{PRICE}} regardless of where you are. Your bank may apply its own conversion rate for the card you use.",
+    "followup": "Do you want the purchase link?",
+    "priority": 1
+  },
+  {
+    "id": "payment_methods",
+    "title": "Payment methods",
+    "keywords": [
+      "payment",
+      "pay",
+      "card",
+      "paypal",
+      "apple pay",
+      "how to pay"
+    ],
+    "patterns": [
+      "how do i pay",
+      "what payment methods",
+      "can i pay with paypal",
+      "do you take credit cards",
+      "is apple pay available",
+      "payment options",
+      "can i pay by card",
+      "which cards do you accept"
+    ],
+    "response": "Payment is handled by our secure checkout provider. Credit and debit cards are accepted, and the checkout page shows every method currently available in your region (many buyers also see PayPal or wallet options there). Everything is processed in USD.",
+    "followup": "Would you like the checkout link to see the options?",
+    "priority": 3
+  },
+  {
+    "id": "taxes",
+    "title": "Sales tax and VAT",
+    "keywords": [
+      "tax",
+      "sales tax",
+      "vat",
+      "taxes",
+      "invoice"
+    ],
+    "patterns": [
+      "is tax included",
+      "do i pay sales tax",
+      "vat",
+      "taxes",
+      "will there be extra charges",
+      "is the price final",
+      "hidden fees"
+    ],
+    "response": "The price is **{{PRICE}}**. If your state or country requires sales tax or VAT on digital goods, your checkout page will show it before you confirm the payment, so there are no surprises afterward.",
+    "followup": "Anything else about the purchase you'd like to check?",
+    "priority": 1
+  },
+  {
+    "id": "secure_payment",
+    "title": "Is payment secure",
+    "keywords": [
+      "secure",
+      "safe payment",
+      "encryption",
+      "scam",
+      "trust"
+    ],
+    "patterns": [
+      "is payment secure",
+      "is it safe to pay",
+      "is this a scam",
+      "can i trust this site",
+      "how is payment processed",
+      "is my card safe",
+      "do you store my card",
+      "ssl"
+    ],
+    "response": "Yes. Payment runs entirely inside our checkout provider's environment, over an encrypted connection. We never see or store your card details — that data stays with the processor. If anything about the order worries you, email {{SUPPORT_EMAIL}} before paying.",
+    "followup": "Would you like me to explain what happens right after the payment?",
+    "priority": 2
+  },
+  {
+    "id": "price_refundable",
+    "title": "What if it is not for me",
+    "keywords": [
+      "refund",
+      "money back",
+      "cancel",
+      "guarantee",
+      "return"
+    ],
+    "patterns": [
+      "can i get a refund",
+      "is there a guarantee",
+      "money back guarantee",
+      "what if i dont like it",
+      "refund policy",
+      "can i cancel",
+      "return policy"
+    ],
+    "response": "Refunds follow the buyer policy of the checkout provider you pay through — the exact window is shown on the checkout page. {{GUARANTEE}} If something is wrong with your order or the files, email {{SUPPORT_EMAIL}} and we will make it right.",
+    "followup": "Would you like the link so you can read the checkout terms?",
+    "priority": 2
+  },
+  {
+    "id": "common_issues",
+    "title": "Common issues and fixes",
+    "keywords": [
+      "problems",
+      "issues",
+      "not working",
+      "troubleshoot",
+      "fix"
+    ],
+    "patterns": [
+      "what problems can happen",
+      "what if something does not work",
+      "common problems",
+      "troubleshooting",
+      "i have a problem",
+      "something is not working"
+    ],
+    "response": "The two most common hiccups are antivirus false positives during a batch run and an incomplete extraction (a file missing because the archive was not fully unzipped). Both have quick fixes and are covered in the members area guide. Anything stranger, email {{SUPPORT_EMAIL}}.",
+    "followup": "Which issue are you running into?",
+    "priority": 2
+  },
+  {
+    "id": "program_install_error",
+    "title": "A program failed to install",
+    "keywords": [
+      "install failed",
+      "error installing",
+      "didn't install",
+      "setup error"
+    ],
+    "patterns": [
+      "one program did not install",
+      "the install failed",
+      "i got an error installing a program",
+      "the installer crashed",
+      "a program will not install",
+      "setup error"
+    ],
+    "response": "Re-run just that program from the launcher. If it fails again, check that your antivirus did not quarantine it, and confirm the file extracted completely from the archive. Persistent failure on one title? Email {{SUPPORT_EMAIL}} with the program name and the Windows version.",
+    "followup": "Do you want to tell us which one it was?",
+    "priority": 2
+  },
+  {
+    "id": "access_denied",
+    "title": "Access or download blocked",
+    "keywords": [
+      "blocked",
+      "denied",
+      "link expired",
+      "no permission",
+      "quarantined"
+    ],
+    "patterns": [
+      "my access was blocked",
+      "the link says expired",
+      "permission denied",
+      "the browser blocked the download",
+      "windows blocked the file",
+      "smart screen warning"
+    ],
+    "response": "Windows SmartScreen and some browsers flag installer files from downloads — click through with 'Keep' and 'More info → Run anyway', or use the file's properties to unblock it after downloading. If a link says expired, email {{SUPPORT_EMAIL}} for a fresh one.",
+    "followup": "Would you like the step-by-step for unblocking files?",
+    "priority": 2
+  },
+  {
+    "id": "unzip_files",
+    "title": "Extracting the package",
+    "keywords": [
+      "unzip",
+      "extract",
+      "rar",
+      "zip",
+      "archive"
+    ],
+    "patterns": [
+      "how do i extract the files",
+      "the file is a zip",
+      "rar file",
+      "how do i unzip",
+      "extraction failed",
+      "what do i use to extract"
+    ],
+    "response": "Use 7-Zip or WinRAR (both free) and extract the whole archive before copying anything to the USB drive. Extract into a folder first, then copy that folder — copying a half-extracted archive is the single most common setup mistake.",
+    "followup": "Do you want the USB preparation steps?",
+    "priority": 2
+  },
+  {
+    "id": "internet_needed",
+    "title": "Which parts need internet",
+    "keywords": [
+      "connection",
+      "internet",
+      "need a connection",
+      "needs internet",
+      "no internet",
+      "offline",
+      "online",
+      "without internet"
+    ],
+    "patterns": [
+      "can i use it offline",
+      "can it work without internet",
+      "do i need internet",
+      "does everything work offline",
+      "does everything work without a connection",
+      "does it need internet",
+      "internet required",
+      "is internet required",
+      "which parts need a connection"
+    ],
+    "response": "Drivers are fully offline — that is the critical part right after a format. Program installers mostly run from the USB drive as well; a few titles fetch components from the vendor during installation, so a connection helps, but it is never required to get the machine usable.",
+    "followup": "Anything else about offline use?",
+    "priority": 3
+  },
+  {
+    "id": "what_is_it",
+    "title": "What the toolkit is",
+    "keywords": [
+      "what is it",
+      "product",
+      "toolkit",
+      "explain",
+      "kit"
+    ],
+    "patterns": [
+      "what is this",
+      "what is the toolkit",
+      "what exactly is this",
+      "what is the product",
+      "tell me about the product",
+      "what does it do",
+      "what am i buying",
+      "explain the toolkit"
+    ],
+    "response": "The {{PRODUCT_NAME}} is a digital toolkit for PC repair technicians and IT pros. It gives you a launcher that batch-installs 160+ programs, an offline driver pack that works right after a Windows format, a built-in updater and a Windows tweaks panel — all running from a {{USB_SIZE}} USB flash drive.",
+    "followup": "Want the full list of what's inside?",
+    "priority": 2
+  },
+  {
+    "id": "contents",
+    "title": "What's included in detail",
+    "keywords": [
+      "what's included",
+      "contents",
+      "package",
+      "included",
+      "inside"
+    ],
+    "patterns": [
+      "what is included",
+      "whats included",
+      "what do i get",
+      "what is in the package",
+      "contents of the toolkit",
+      "whats inside",
+      "list everything included",
+      "what comes with it",
+      "is there anything else included"
+    ],
+    "response": "You get:\n- The MInstAll launcher with **160+ programs** organised by category\n- The **offline driver pack** (chipset, network, Wi-Fi, Bluetooth, audio, video)\n- The **built-in installer updater**\n- The **Windows tweaks and optimisation panel**\n- Setup tutorials in the members area\n- Lifetime access and future updates at no extra cost",
+    "followup": "Would you like the categories in detail?",
+    "priority": 2
+  },
+  {
+    "id": "program_count",
+    "title": "How many programs",
+    "keywords": [
+      "how many programs",
+      "160",
+      "count",
+      "apps",
+      "software list"
+    ],
+    "patterns": [
+      "how many programs",
+      "how many apps",
+      "how many softwares",
+      "number of programs",
+      "160 programs",
+      "is it really 160",
+      "program list",
+      "what software is included"
+    ],
+    "response": "There are **160+ programs** in the package, sorted by category: browsers, Office 2013 → 2024 and Office 365 packages, PDF readers, antivirus and security tools, media and graphics apps, archivers, remote access tools and everyday utilities for a repair bench.",
+    "followup": "Do you want examples for a specific category, like Office or drivers?",
+    "priority": 2
+  },
+  {
+    "id": "offline_drivers",
+    "title": "Offline drivers",
+    "keywords": [
+      "drivers",
+      "offline",
+      "no internet",
+      "chipset",
+      "network driver",
+      "wifi driver"
+    ],
+    "patterns": [
+      "does it install drivers",
+      "offline drivers",
+      "drivers without internet",
+      "no internet driver",
+      "how do the drivers work",
+      "network driver missing",
+      "wifi driver missing after format",
+      "does it have drivers",
+      "driver pack",
+      "install drivers offline"
+    ],
+    "response": "Yes — the offline driver pack is the core feature. After a clean Windows install, the panel detects the hardware and installs **chipset, network, Wi-Fi, Bluetooth, audio and video drivers without any internet connection**. That solves the classic problem where the machine has no network card driver and nothing else can be downloaded.",
+    "followup": "Do you want to know which Windows versions are supported?",
+    "priority": 3
+  },
+  {
+    "id": "updater",
+    "title": "Built-in updater",
+    "keywords": [
+      "updater",
+      "updates",
+      "new versions",
+      "outdated",
+      "refresh"
+    ],
+    "patterns": [
+      "does it update the programs",
+      "built in updater",
+      "updater panel",
+      "are the installers updated",
+      "will my usb go out of date",
+      "update the installers",
+      "get new versions",
+      "software updater"
+    ],
+    "response": "The updater is part of the toolkit. It lists every application with its last update date and lets you download the newest installers straight from the panel, so your USB drive does not sit in a drawer getting stale.",
+    "followup": "Should I explain how to keep the drive current?",
+    "priority": 2
+  },
+  {
+    "id": "one_click_install",
+    "title": "One-click installation",
+    "keywords": [
+      "one click",
+      "automatic",
+      "batch",
+      "unattended",
+      "install all"
+    ],
+    "patterns": [
+      "one click install",
+      "batch install",
+      "install automatically",
+      "does it install everything at once",
+      "unattended install",
+      "install all programs",
+      "does it run by itself",
+      "automated install"
+    ],
+    "response": "Exactly. Tick the programs you want in the launcher and start the queue. The installer runs them in sequence without you clicking through each setup wizard, so you can work on another machine while it finishes.",
+    "followup": "Do you want the full feature list before deciding?",
+    "priority": 2
+  },
+  {
+    "id": "tweaks",
+    "title": "Windows tweaks",
+    "keywords": [
+      "tweaks",
+      "optimise",
+      "optimize",
+      "setup",
+      "desktop icons",
+      "power plan"
+    ],
+    "patterns": [
+      "what are the tweaks",
+      "windows tweaks",
+      "optimization panel",
+      "restore desktop icons",
+      "performance tweaks",
+      "windows update repair",
+      "system tweaks",
+      "quick fixes"
+    ],
+    "response": "The tweaks panel groups the routine post-format jobs into one click each: restore desktop and explorer icons, apply high-performance power plans, clean temporary files, manage OneDrive, adjust the Windows 11 context menu and repair Windows Update.",
+    "followup": "Anything else you'd like to check?",
+    "priority": 2
+  },
+  {
+    "id": "office",
+    "title": "Office packages",
+    "keywords": [
+      "office",
+      "word",
+      "excel",
+      "microsoft office",
+      "libreoffice",
+      "365"
+    ],
+    "patterns": [
+      "is office included",
+      "microsoft office",
+      "does it have office",
+      "office 365",
+      "word and excel",
+      "office 2021",
+      "office 2024",
+      "libreoffice",
+      "which office versions"
+    ],
+    "response": "The launcher includes Microsoft Office packages from **2013 through 2024 plus Office 365** (Word, Excel, PowerPoint, Outlook, Project, Visio) and free alternatives like LibreOffice, OpenOffice and ONLYOFFICE. Licensing the software for your client is done the normal way — the toolkit does not include cracks or activators.",
+    "followup": "Would you like to see the interface screenshots?",
+    "priority": 2
+  },
+  {
+    "id": "usb_size",
+    "title": "Which USB drive you need",
+    "keywords": [
+      "usb",
+      "flash drive",
+      "pendrive",
+      "size",
+      "memory stick",
+      "64gb"
+    ],
+    "patterns": [
+      "what size usb",
+      "which usb do i need",
+      "how big is the usb",
+      "do i need a 64gb drive",
+      "flash drive size",
+      "can i use a hard drive",
+      "external ssd",
+      "memory stick size",
+      "do i need a pendrive"
+    ],
+    "response": "Plan on a **{{USB_SIZE}} USB flash drive** (an external SSD or hard drive works too). A quality USB 3.0 drive makes copying and running the package much faster. The launcher runs from the drive, so nothing is installed on your own machine.",
+    "followup": "Do you want the steps to prepare the drive?",
+    "priority": 3
+  },
+  {
+    "id": "kit_size",
+    "title": "Package size",
+    "keywords": [
+      "how big",
+      "size",
+      "gb",
+      "space",
+      "storage",
+      "download size"
+    ],
+    "patterns": [
+      "how big is the download",
+      "how much space",
+      "total size",
+      "gigabytes",
+      "how large is the package",
+      "will it fit on my drive",
+      "storage needed",
+      "download size"
+    ],
+    "response": "The toolkit is packaged to fit comfortably on a {{USB_SIZE}} drive, with hundreds of installers organised in folders by category. If you prefer, you can copy only the categories you use most and keep the rest on the download backup.",
+    "followup": "Want me to explain how to organise the drive?",
+    "priority": 1
+  },
+  {
+    "id": "has_support",
+    "title": "Is support included",
+    "keywords": [
+      "support",
+      "help after buying",
+      "customer service",
+      "assistance"
+    ],
+    "patterns": [
+      "do you offer support",
+      "is there support after buying",
+      "can i get help",
+      "do you answer questions",
+      "customer support",
+      "will someone help me"
+    ],
+    "response": "Yes. Support covers download and access issues, extracting files, preparing the USB drive and questions about how to run the toolkit. Write to {{SUPPORT_EMAIL}} and include the e-mail you used at checkout so we can look you up quickly.",
+    "followup": "Would you like to send a question to support now?",
+    "priority": 3
+  },
+  {
+    "id": "contact",
+    "title": "How to contact us",
+    "keywords": [
+      "contact",
+      "email",
+      "reach you",
+      "talk to a human",
+      "phone"
+    ],
+    "patterns": [
+      "how do i contact you",
+      "what is your email",
+      "email address",
+      "can i talk to a human",
+      "phone number",
+      "where do i send questions",
+      "contact support"
+    ],
+    "response": "E-mail is the fastest route: **{{SUPPORT_EMAIL}}**. Support is human, not a ticket robot, and replies usually come back within one business day. For pre-sale questions, I can answer most of them here too.",
+    "followup": "Anything I can clear up right now?",
+    "priority": 3
+  },
+  {
+    "id": "company",
+    "title": "Who makes it",
+    "keywords": [
+      "who are you",
+      "company",
+      "business",
+      "who makes it",
+      "legitimate"
+    ],
+    "patterns": [
+      "who makes this",
+      "what company is this",
+      "is this a real company",
+      "who is behind it",
+      "are you guys legit",
+      "company information"
+    ],
+    "response": "The toolkit is produced and supported by KitTecnico Pro, a team that works in PC repair and IT maintenance. The package has been sold and used by technicians in Brazil and Portugal for years; we are now bringing it to the US market.",
+    "followup": "Would you like to see the interface before buying?",
+    "priority": 2
+  },
+  {
+    "id": "receipt",
+    "title": "Receipt and invoice",
+    "keywords": [
+      "receipt",
+      "invoice",
+      "proof of purchase",
+      "document",
+      "tax"
+    ],
+    "patterns": [
+      "do i get a receipt",
+      "can i get an invoice",
+      "proof of purchase",
+      "do you provide a document",
+      "i need a receipt for my business",
+      "tax invoice"
+    ],
+    "response": "Your checkout confirmation e-mail works as your receipt. If you need an invoice with your business details, email {{SUPPORT_EMAIL}} with the information to include and we will send one over.",
+    "followup": "Anything else about the purchase?",
+    "priority": 2
+  },
+  {
+    "id": "privacy",
+    "title": "Privacy and data",
+    "keywords": [
+      "privacy",
+      "my data",
+      "gdpr",
+      "personal information",
+      "security"
+    ],
+    "patterns": [
+      "how do you handle my data",
+      "is my information safe",
+      "privacy policy",
+      "gdpr",
+      "what do you do with my email",
+      "do you sell my data"
+    ],
+    "response": "Your e-mail is used to deliver your purchase and to provide support afterwards. Payment details are handled entirely by the checkout provider and never reach us. We do not sell or share buyer data with third parties for marketing.",
+    "followup": "Anything else before you decide?",
+    "priority": 2
+  },
+  {
+    "id": "pre_sale_question",
+    "title": "Pre-sale questions",
+    "keywords": [
+      "before i buy",
+      "question before buying",
+      "not sure",
+      "need to know"
+    ],
+    "patterns": [
+      "i have a question before buying",
+      "i am not sure yet",
+      "can you help me decide",
+      "i need to check something first",
+      "question about buying"
+    ],
+    "response": "Ask away — that is what I am here for. The most common pre-sale checks are Windows version, machine brands, the USB drive size and whether the interface language works for you.",
+    "followup": "Which of those would you like to go through?",
+    "priority": 2
+  },
+  {
+    "id": "download_time_tech",
+    "title": "Download and preparation time",
+    "keywords": [
+      "how long to download",
+      "prep time",
+      "downtime",
+      "first setup"
+    ],
+    "patterns": [
+      "how long does it take to download everything",
+      "how long to set up the usb",
+      "how much time to prepare",
+      "first time setup duration",
+      "prep time"
+    ],
+    "response": "Budget one download session, then a few minutes to extract and copy to the drive. After that it is ready forever: plug in, tick boxes, run. The prep is a one-time cost, unlike the hour you lose on every manual setup.",
+    "followup": "Anything else about the workflow?",
+    "priority": 1
+  },
+  {
+    "id": "windows_iso",
+    "title": "Does it include Windows ISOs",
+    "keywords": [
+      "windows iso",
+      "operating system",
+      "windows install",
+      "iso image"
+    ],
+    "patterns": [
+      "does it include windows",
+      "does it come with an iso",
+      "does it install windows",
+      "is the operating system included",
+      "windows image included",
+      "can i install windows with it"
+    ],
+    "response": "No. This is a post-install toolkit, not an operating system image. You install Windows yourself from your own media or licence, then use the toolkit to set the machine up. It does not include Windows ISOs, keys or activators.",
+    "followup": "Want to know what it does right after the install?",
+    "priority": 3
+  },
+  {
+    "id": "activators",
+    "title": "Cracks and activators",
+    "keywords": [
+      "crack",
+      "activator",
+      "keygen",
+      "pirated",
+      "licence key"
+    ],
+    "patterns": [
+      "does it include activators",
+      "any cracks",
+      "does it activate office",
+      "is it pirated software",
+      "does it include keys",
+      "kmspico",
+      "office activator"
+    ],
+    "response": "No. The toolkit ships legitimate installers for freely distributed, trial or vendor-supplied software — and our own automation tools. It contains no cracks, activators or keygens, and licensing each program for your client is handled normally.",
+    "followup": "Do you want to know which Office versions are included?",
+    "priority": 3
+  },
+  {
+    "id": "auto_updates",
+    "title": "Keeping the package current",
+    "keywords": [
+      "keep updated",
+      "automatic updates",
+      "refresh",
+      "new installers"
+    ],
+    "patterns": [
+      "how do i keep it updated",
+      "are updates automatic",
+      "how do i refresh the installers",
+      "do i have to rebuild the usb",
+      "staying current"
+    ],
+    "response": "You drive it from the updater panel inside the toolkit: it lists each program with its last update date and drops the newest installer into the right folder on the drive. No rebuilding from scratch and no extra charge.",
+    "followup": "Anything else technical you want to check?",
+    "priority": 2
+  },
+  {
+    "id": "minstall",
+    "title": "MInstAll launcher",
+    "keywords": [
+      "minstall",
+      "launcher",
+      "batch installer",
+      "what installer"
+    ],
+    "patterns": [
+      "what is minstall",
+      "which installer does it use",
+      "tell me about the launcher",
+      "how does the batch installer work",
+      "is the installer included"
+    ],
+    "response": "MInstAll is the launcher at the centre of the toolkit. It opens with every category and program listed, lets you tick what you need — including a select-all option — and then runs the whole queue in sequence with no per-program intervention.",
+    "followup": "Would you like to see the interface screenshots?",
+    "priority": 2
+  },
+  {
+    "id": "install_speed",
+    "title": "Installation speed on the bench",
+    "keywords": [
+      "speed",
+      "how fast installs",
+      "faster",
+      "throughput",
+      "batch speed"
+    ],
+    "patterns": [
+      "how fast does it install",
+      "is it quicker than manual",
+      "installation speed",
+      "how long does the queue take",
+      "can i install while doing something else"
+    ],
+    "response": "The queue runs unattended, start to finish, so your hands are free for the next machine. That is the real gain: instead of supervising setups, you prep the next job and come back to a finished machine.",
+    "followup": "Would you like the purchase link?",
+    "priority": 2
+  },
+  {
+    "id": "disk_space",
+    "title": "Space needed on the client machine",
+    "keywords": [
+      "disk space",
+      "space on the pc",
+      "storage",
+      "free space"
+    ],
+    "patterns": [
+      "how much disk space does it need",
+      "does it install onto the pc",
+      "space on the client computer",
+      "does it take up room",
+      "do i install the toolkit on the pc"
+    ],
+    "response": "The toolkit itself runs from the USB drive and takes no meaningful space on the client machine. Only the programs you choose to install end up on the hard drive, exactly as if you had installed them manually.",
+    "followup": "Anything else about how it runs?",
+    "priority": 2
+  },
+  {
+    "id": "utilities",
+    "title": "Utilities included",
+    "keywords": [
+      "utilities",
+      "7zip",
+      "winrar",
+      "filezilla",
+      "tools"
+    ],
+    "patterns": [
+      "which utilities are included",
+      "does it have 7zip",
+      "winrar included",
+      "filezilla",
+      "archive tools",
+      "what maintenance tools are there"
+    ],
+    "response": "Dozens: 7-Zip, WinRAR, FileZilla, PDF readers, download managers, media players, codec packs, benchmarking and diagnostic helpers, remote access tools and system cleanup utilities — the everyday kit of a repair bench.",
+    "followup": "Would you like the full category list?",
+    "priority": 2
+  },
+  {
+    "id": "who_is_it_for",
+    "title": "Who it is for",
+    "keywords": [
+      "who is it for",
+      "for me",
+      "target",
+      "ideal for",
+      "profession"
+    ],
+    "patterns": [
+      "who is this for",
+      "is it for me",
+      "who should buy this",
+      "is this for technicians",
+      "i fix computers",
+      "i run a computer shop",
+      "is it for hobbyists"
+    ],
+    "response": "It is made for PC repair shops, IT support techs, freelancers and anyone who reinstalls Windows regularly — including people who do it as a side job or for their own machines. If you touch more than a couple of PCs a month, it pays for itself.",
+    "followup": "Would you like to see what's included?",
+    "priority": 2
+  },
+  {
+    "id": "use_cases",
+    "title": "How people use it",
+    "keywords": [
+      "use cases",
+      "how it is used",
+      "in practice",
+      "workflow",
+      "example"
+    ],
+    "patterns": [
+      "how do people use it",
+      "give me an example",
+      "in practice how does it work",
+      "what is the workflow",
+      "day to day use",
+      "show me a scenario"
+    ],
+    "response": "Typical run: the machine comes in, you format it and install Windows, plug in the toolkit USB, restore connectivity with the offline drivers, then tick the programs the client needs and start the queue. While it installs, you work on the next machine and come back to a ready PC.",
+    "followup": "Do you want the checklist version of that?",
+    "priority": 2
+  },
+  {
+    "id": "benefits",
+    "title": "Main benefits",
+    "keywords": [
+      "benefits",
+      "why buy",
+      "advantages",
+      "value",
+      "what do i gain"
+    ],
+    "patterns": [
+      "what are the benefits",
+      "why should i buy this",
+      "what do i gain",
+      "advantages",
+      "why is it worth it",
+      "the main benefits"
+    ],
+    "response": "Four gains: about an hour reclaimed per machine, drivers that work with no internet, installers that never go stale thanks to the updater, and a predictable setup order that reduces support calls from clients afterwards.",
+    "followup": "Would you like the purchase link?",
+    "priority": 2
+  },
+  {
+    "id": "revenue",
+    "title": "Does it pay for itself",
+    "keywords": [
+      "pay for itself",
+      "roi",
+      "earn more",
+      "more clients",
+      "profit"
+    ],
+    "patterns": [
+      "will it pay for itself",
+      "how does it increase my income",
+      "can i charge more",
+      "does it help me earn more",
+      "return on investment",
+      "how many jobs to break even"
+    ],
+    "response": "One charge of {{PRICE}} against even a single service call covers it several times over. After that, every hour you do not spend waiting on installers is time you can bill elsewhere or use to take one more machine that day.",
+    "followup": "Shall I send you the purchase link?",
+    "priority": 2
+  },
+  {
+    "id": "free_alternative",
+    "title": "Why not just build it myself",
+    "keywords": [
+      "build myself",
+      "free",
+      "diy",
+      "why pay",
+      "free alternative"
+    ],
+    "patterns": [
+      "why not build it myself",
+      "can i not do this for free",
+      "is there a free option",
+      "why should i pay for free software",
+      "diy driver pack",
+      "i can download these myself"
+    ],
+    "response": "You can — and it costs days of collecting installers, testing them, organising a folder structure and hunting drivers you only discover are missing while a client waits. The toolkit is that work already done, tested and kept current, for {{PRICE}} once.",
+    "followup": "Would you like to compare what you get against doing it manually?",
+    "priority": 2
+  },
+  {
+    "id": "quality",
+    "title": "How it is tested",
+    "keywords": [
+      "quality",
+      "tested",
+      "reliable",
+      "verified",
+      "maintained"
+    ],
+    "patterns": [
+      "is it well made",
+      "how is it tested",
+      "is everything verified",
+      "is it maintained",
+      "do you check the files",
+      "quality of the package"
+    ],
+    "response": "Every installer is checked and organised by category, and the package is maintained continuously — new versions, new titles and fixes come through our own updater rather than being left as-is after release.",
+    "followup": "Anything else you'd like to verify?",
+    "priority": 1
+  },
+  {
+    "id": "windows11",
+    "title": "Windows 11",
+    "keywords": [
+      "windows 11",
+      "win11",
+      "windows eleven"
+    ],
+    "patterns": [
+      "does it work on windows 11",
+      "windows 11 support",
+      "win 11",
+      "windows 11 compatibility",
+      "does it support the latest windows"
+    ],
+    "response": "Yes. Windows 11 is fully supported — the launcher, the driver panel and the updater all work there, and the tweaks list includes Windows 11 specific items like the classic context menu.",
+    "followup": "Anything else about your machines?",
+    "priority": 3
+  },
+  {
+    "id": "windows10",
+    "title": "Windows 10",
+    "keywords": [
+      "windows 10",
+      "win10",
+      "windows ten"
+    ],
+    "patterns": [
+      "does it work on windows 10",
+      "windows 10 support",
+      "win 10",
+      "windows 10 compatibility",
+      "will it work on an older windows 10 pc"
+    ],
+    "response": "Yes — Windows 10 is one of the main targets. Program installation and offline drivers behave the same way as on Windows 11, including on machines that have been running for years.",
+    "followup": "Do you also service older Windows versions?",
+    "priority": 2
+  },
+  {
+    "id": "windows7",
+    "title": "Windows 7",
+    "keywords": [
+      "windows 7",
+      "win7",
+      "old windows",
+      "legacy"
+    ],
+    "patterns": [
+      "does it work on windows 7",
+      "windows 7 support",
+      "win 7",
+      "legacy windows",
+      "i still get windows 7 machines"
+    ],
+    "response": "Many tools in the package still run on Windows 7, which helps with older machines that come in for repair, but the full flow is designed and tested for Windows 10 and 11. Treat Windows 7 support as best-effort rather than guaranteed.",
+    "followup": "Anything else about the machines you service?",
+    "priority": 2
+  },
+  {
+    "id": "laptop",
+    "title": "Laptops",
+    "keywords": [
+      "laptop",
+      "notebook",
+      "portable",
+      "netbook"
+    ],
+    "patterns": [
+      "does it work on laptops",
+      "notebook support",
+      "will it work on my laptop",
+      "does it handle laptop drivers",
+      "gaming laptops"
+    ],
+    "response": "Yes — laptops are the most common case for this toolkit. The driver panel handles the usual problem areas: Wi-Fi, Bluetooth, touchpad, audio and power management that Windows does not cover on its own.",
+    "followup": "Do you want to check the driver details?",
+    "priority": 2
+  },
+  {
+    "id": "desktop",
+    "title": "Desktops and custom builds",
+    "keywords": [
+      "desktop",
+      "custom built",
+      "tower",
+      "pc build",
+      "whitebox"
+    ],
+    "patterns": [
+      "does it work on desktops",
+      "custom built pc",
+      "home built computer",
+      "tower pc",
+      "does it cover motherboard drivers",
+      "b450",
+      "b550 motherboard"
+    ],
+    "response": "Desktops and custom builds are well covered, mainboards included. The driver panel reads the chipset and controller IDs, so it does not rely on the brand name of the machine.",
+    "followup": "Anything else you want to confirm?",
+    "priority": 2
+  },
+  {
+    "id": "general_windows",
+    "title": "Which Windows versions overall",
+    "keywords": [
+      "which windows",
+      "supported versions",
+      "windows versions",
+      "64 bit"
+    ],
+    "patterns": [
+      "which windows versions",
+      "what windows do you support",
+      "does it support 32 bit",
+      "is it for 64 bit only",
+      "windows version required"
+    ],
+    "response": "Primary support is **Windows 10 and Windows 11, 64-bit**. Most 32-bit installers are also present, and a number of tools still work on Windows 7. When in doubt about a specific machine, ask us before buying — {{SUPPORT_EMAIL}}.",
+    "followup": "Would you like the purchase link?",
+    "priority": 2
+  },
+  {
+    "id": "antivirus_warning",
+    "title": "Antivirus warnings",
+    "keywords": [
+      "antivirus",
+      "false positive",
+      "defender",
+      "blocked",
+      "flagged"
+    ],
+    "patterns": [
+      "my antivirus flagged it",
+      "windows defender blocked it",
+      "false positive",
+      "is it a virus",
+      "why does my antivirus complain",
+      "installer was quarantined"
+    ],
+    "response": "Bulk installers and driver packs are a classic false-positive trigger, because they run many setup files in sequence. If Windows Defender or your antivirus quarantines something during a run, restore it from the quarantine list and add an exception for the toolkit folder. The files come from the vendors' own installers.",
+    "followup": "Do you want the exact steps to add an exception?",
+    "priority": 2
+  }
+]

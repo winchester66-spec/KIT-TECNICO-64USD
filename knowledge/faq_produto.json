@@ -1,0 +1,125 @@
+[
+  {
+    "id": "what_is_it",
+    "title": "What the toolkit is",
+    "keywords": ["what is it", "product", "toolkit", "explain", "kit"],
+    "patterns": [
+      "what is this", "what is the toolkit", "what exactly is this", "what is the product",
+      "tell me about the product", "what does it do", "what am i buying", "explain the toolkit"
+    ],
+    "response": "The {{PRODUCT_NAME}} is a digital toolkit for PC repair technicians and IT pros. It gives you a launcher that batch-installs 160+ programs, an offline driver pack that works right after a Windows format, a built-in updater and a Windows tweaks panel — all running from a {{USB_SIZE}} USB flash drive.",
+    "followup": "Want the full list of what's inside?",
+    "priority": 2
+  },
+  {
+    "id": "contents",
+    "title": "What's included in detail",
+    "keywords": ["what's included", "contents", "package", "included", "inside"],
+    "patterns": [
+      "what is included", "whats included", "what do i get", "what is in the package",
+      "contents of the toolkit", "whats inside", "list everything included", "what comes with it",
+      "is there anything else included"
+    ],
+    "response": "You get:\n- The MInstAll launcher with **160+ programs** organised by category\n- The **offline driver pack** (chipset, network, Wi-Fi, Bluetooth, audio, video)\n- The **built-in installer updater**\n- The **Windows tweaks and optimisation panel**\n- Setup tutorials in the members area\n- Lifetime access and future updates at no extra cost",
+    "followup": "Would you like the categories in detail?",
+    "priority": 2
+  },
+  {
+    "id": "program_count",
+    "title": "How many programs",
+    "keywords": ["how many programs", "160", "count", "apps", "software list"],
+    "patterns": [
+      "how many programs", "how many apps", "how many softwares", "number of programs",
+      "160 programs", "is it really 160", "program list", "what software is included"
+    ],
+    "response": "There are **160+ programs** in the package, sorted by category: browsers, Office 2013 → 2024 and Office 365 packages, PDF readers, antivirus and security tools, media and graphics apps, archivers, remote access tools and everyday utilities for a repair bench.",
+    "followup": "Do you want examples for a specific category, like Office or drivers?",
+    "priority": 2
+  },
+  {
+    "id": "offline_drivers",
+    "title": "Offline drivers",
+    "keywords": ["drivers", "offline", "no internet", "chipset", "network driver", "wifi driver"],
+    "patterns": [
+      "does it install drivers", "offline drivers", "drivers without internet", "no internet driver",
+      "how do the drivers work", "network driver missing", "wifi driver missing after format",
+      "does it have drivers", "driver pack", "install drivers offline"
+    ],
+    "response": "Yes — the offline driver pack is the core feature. After a clean Windows install, the panel detects the hardware and installs **chipset, network, Wi-Fi, Bluetooth, audio and video drivers without any internet connection**. That solves the classic problem where the machine has no network card driver and nothing else can be downloaded.",
+    "followup": "Do you want to know which Windows versions are supported?",
+    "priority": 3
+  },
+  {
+    "id": "updater",
+    "title": "Built-in updater",
+    "keywords": ["updater", "updates", "new versions", "outdated", "refresh"],
+    "patterns": [
+      "does it update the programs", "built in updater", "updater panel", "are the installers updated",
+      "will my usb go out of date", "update the installers", "get new versions", "software updater"
+    ],
+    "response": "The updater is part of the toolkit. It lists every application with its last update date and lets you download the newest installers straight from the panel, so your USB drive does not sit in a drawer getting stale.",
+    "followup": "Should I explain how to keep the drive current?",
+    "priority": 2
+  },
+  {
+    "id": "one_click_install",
+    "title": "One-click installation",
+    "keywords": ["one click", "automatic", "batch", "unattended", "install all"],
+    "patterns": [
+      "one click install", "batch install", "install automatically", "does it install everything at once",
+      "unattended install", "install all programs", "does it run by itself", "automated install"
+    ],
+    "response": "Exactly. Tick the programs you want in the launcher and start the queue. The installer runs them in sequence without you clicking through each setup wizard, so you can work on another machine while it finishes.",
+    "followup": "Do you want the full feature list before deciding?",
+    "priority": 2
+  },
+  {
+    "id": "tweaks",
+    "title": "Windows tweaks",
+    "keywords": ["tweaks", "optimise", "optimize", "setup", "desktop icons", "power plan"],
+    "patterns": [
+      "what are the tweaks", "windows tweaks", "optimization panel", "restore desktop icons",
+      "performance tweaks", "windows update repair", "system tweaks", "quick fixes"
+    ],
+    "response": "The tweaks panel groups the routine post-format jobs into one click each: restore desktop and explorer icons, apply high-performance power plans, clean temporary files, manage OneDrive, adjust the Windows 11 context menu and repair Windows Update.",
+    "followup": "Anything else you'd like to check?",
+    "priority": 2
+  },
+  {
+    "id": "office",
+    "title": "Office packages",
+    "keywords": ["office", "word", "excel", "microsoft office", "libreoffice", "365"],
+    "patterns": [
+      "is office included", "microsoft office", "does it have office", "office 365", "word and excel",
+      "office 2021", "office 2024", "libreoffice", "which office versions"
+    ],
+    "response": "The launcher includes Microsoft Office packages from **2013 through 2024 plus Office 365** (Word, Excel, PowerPoint, Outlook, Project, Visio) and free alternatives like LibreOffice, OpenOffice and ONLYOFFICE. Licensing the software for your client is done the normal way — the toolkit does not include cracks or activators.",
+    "followup": "Would you like to see the interface screenshots?",
+    "priority": 2
+  },
+  {
+    "id": "usb_size",
+    "title": "Which USB drive you need",
+    "keywords": ["usb", "flash drive", "pendrive", "size", "memory stick", "64gb"],
+    "patterns": [
+      "what size usb", "which usb do i need", "how big is the usb", "do i need a 64gb drive",
+      "flash drive size", "can i use a hard drive", "external ssd", "memory stick size",
+      "do i need a pendrive"
+    ],
+    "response": "Plan on a **{{USB_SIZE}} USB flash drive** (an external SSD or hard drive works too). A quality USB 3.0 drive makes copying and running the package much faster. The launcher runs from the drive, so nothing is installed on your own machine.",
+    "followup": "Do you want the steps to prepare the drive?",
+    "priority": 3
+  },
+  {
+    "id": "kit_size",
+    "title": "Package size",
+    "keywords": ["how big", "size", "gb", "space", "storage", "download size"],
+    "patterns": [
+      "how big is the download", "how much space", "total size", "gigabytes", "how large is the package",
+      "will it fit on my drive", "storage needed", "download size"
+    ],
+    "response": "The toolkit is packaged to fit comfortably on a {{USB_SIZE}} drive, with hundreds of installers organised in folders by category. If you prefer, you can copy only the categories you use most and keep the rest on the download backup.",
+    "followup": "Want me to explain how to organise the drive?",
+    "priority": 1
+  }
+]

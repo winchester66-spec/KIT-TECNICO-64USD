@@ -1,0 +1,95 @@
+[
+  {
+    "id": "future_updates",
+    "title": "Future updates",
+    "keywords": [
+      "future updates",
+      "new versions",
+      "free updates",
+      "upgrade",
+      "new build"
+    ],
+    "patterns": [
+      "do i get future updates",
+      "are updates free",
+      "what about new versions",
+      "do i have to pay again for updates",
+      "will you update the package",
+      "new releases"
+    ],
+    "response": "Future updates are included at no extra cost. New installer versions come through the built-in updater, and when we refresh the package itself you can re-download it from your access e-mail.",
+    "followup": "Anything else about the updates?",
+    "priority": 3
+  },
+  {
+    "id": "recover_access",
+    "title": "Recovering your access",
+    "keywords": [
+      "cannot download",
+      "forgot",
+      "link does not work",
+      "lost link",
+      "lost the link",
+      "recover",
+      "recover access",
+      "resend",
+      "resend the link"
+    ],
+    "patterns": [
+      "can you resend the link",
+      "how do i recover my access",
+      "i cannot find my purchase",
+      "i lost my download link",
+      "i lost the link",
+      "lost download link",
+      "my download link is gone",
+      "recover my files",
+      "resend access",
+      "resend the download link",
+      "the link is not working anymore"
+    ],
+    "response": "Email {{SUPPORT_EMAIL}} with the e-mail address you used at checkout, or a copy of the receipt. We will resend the download links and access details.",
+    "followup": "Anything else I can help with?",
+    "priority": 3
+  },
+  {
+    "id": "multiple_downloads",
+    "title": "Downloading more than once",
+    "keywords": [
+      "download again",
+      "multiple downloads",
+      "new computer",
+      "re-download"
+    ],
+    "patterns": [
+      "can i download it again",
+      "how many times can i download",
+      "i got a new computer",
+      "re-download the files",
+      "download limit"
+    ],
+    "response": "Download as many times as you need — there is no limit. New laptop, reinstalled Windows, or a corrupted copy on the drive: just grab the package again from your email link.",
+    "followup": "Anything else about accessing your files?",
+    "priority": 2
+  },
+  {
+    "id": "how_updates_work",
+    "title": "How updates reach you",
+    "keywords": [
+      "how do updates work",
+      "updater",
+      "refresh installers",
+      "update process"
+    ],
+    "patterns": [
+      "how do updates work",
+      "how do i get the new versions",
+      "how does the updater work",
+      "how do i refresh my installers",
+      "how do i update the programs on the usb"
+    ],
+    "response": "Open the updater inside the toolkit. It lists each application with its last update date and the target folder, and lets you download the newest installer into the right place on your drive, with one click per program.",
+    "followup": "Do you want the tutorial link?",
+    "priority": 2
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "id": "price_main",
+    "title": "Price",
+    "keywords": ["price", "cost", "how much", "value", "usd"],
+    "patterns": [
+      "how much is it", "what is the price", "how much does it cost", "price", "cost", "how much",
+      "what does it cost", "is it expensive", "price in usd", "how much do i pay", "total price"
+    ],
+    "response": "The {{PRODUCT_NAME}} costs **{{PRICE}}** — a single one-time payment in USD, with no subscription and no renewal. That price includes all future updates, lifetime access and use in your repair business.",
+    "followup": "Would you like the purchase link, or do you have another question first?",
+    "priority": 3
+  },
+  {
+    "id": "is_it_a_promo",
+    "title": "Is the price promotional",
+    "keywords": ["promo", "promotion", "sale", "price change", "increase"],
+    "patterns": [
+      "is it a promotion", "is this a sale price", "will the price go up", "how long is the offer",
+      "is the price going to change", "limited offer", "when does the price end"
+    ],
+    "response": "The current price of **{{PRICE}}** is a launch price for our US release. It can be adjusted later as the package grows and support expands, but everyone who buys keeps lifetime access and future updates at no extra cost.",
+    "followup": "Do you want me to send you the checkout link?",
+    "priority": 1
+  },
+  {
+    "id": "discount",
+    "title": "Discounts",
+    "keywords": ["discount", "cheaper", "lower price", "deal", "best price"],
+    "patterns": [
+      "is there a discount", "can you make it cheaper", "any deal", "best price", "lower the price",
+      "student discount", "bulk discount", "is there a cheaper option"
+    ],
+    "response": "**{{PRICE}}** is already the lowest price we offer for the complete toolkit — there is no higher price in effect and no coupon needed. Considering a single service call is usually billed well above that, most buyers pay it back on the first or second machine.",
+    "followup": "Shall I get you the purchase link?",
+    "priority": 1
+  },
+  {
+    "id": "coupon",
+    "title": "Coupon code",
+    "keywords": ["coupon", "promo code", "voucher", "code"],
+    "patterns": [
+      "do i need a coupon", "is there a coupon code", "promo code", "discount code", "voucher code",
+      "where do i put the code", "coupon not working"
+    ],
+    "response": "No coupon needed — the {{PRICE}} price you see already reflects the current offer. Just use the buy button on this page and the total at checkout should read {{PRICE}}.",
+    "followup": "Want the link so you can check the total yourself?",
+    "priority": 1
+  },
+  {
+    "id": "international_price",
+    "title": "International buyers",
+    "keywords": ["international", "outside us", "europe", "canada", "uk", "currency"],
+    "patterns": [
+      "do you sell internationally", "can i buy from europe", "i am not in the us", "do you ship internationally",
+      "can i pay from canada", "uk buyers", "other countries", "what currency is it"
+    ],
+    "response": "Yes — the toolkit is a digital download, so it works anywhere. Checkout is in **USD** and the price is {{PRICE}} regardless of where you are. Your bank may apply its own conversion rate for the card you use.",
+    "followup": "Do you want the purchase link?",
+    "priority": 1
+  },
+  {
+    "id": "payment_methods",
+    "title": "Payment methods",
+    "keywords": ["payment", "pay", "card", "paypal", "apple pay", "how to pay"],
+    "patterns": [
+      "how do i pay", "what payment methods", "can i pay with paypal", "do you take credit cards",
+      "is apple pay available", "payment options", "can i pay by card", "which cards do you accept"
+    ],
+    "response": "Payment is handled by our secure checkout provider. Credit and debit cards are accepted, and the checkout page shows every method currently available in your region (many buyers also see PayPal or wallet options there). Everything is processed in USD.",
+    "followup": "Would you like the checkout link to see the options?",
+    "priority": 3
+  },
+  {
+    "id": "taxes",
+    "title": "Sales tax and VAT",
+    "keywords": ["tax", "sales tax", "vat", "taxes", "invoice"],
+    "patterns": [
+      "is tax included", "do i pay sales tax", "vat", "taxes", "will there be extra charges",
+      "is the price final", "hidden fees"
+    ],
+    "response": "The price is **{{PRICE}}**. If your state or country requires sales tax or VAT on digital goods, your checkout page will show it before you confirm the payment, so there are no surprises afterward.",
+    "followup": "Anything else about the purchase you'd like to check?",
+    "priority": 1
+  },
+  {
+    "id": "secure_payment",
+    "title": "Is payment secure",
+    "keywords": ["secure", "safe payment", "encryption", "scam", "trust"],
+    "patterns": [
+      "is payment secure", "is it safe to pay", "is this a scam", "can i trust this site",
+      "how is payment processed", "is my card safe", "do you store my card", "ssl"
+    ],
+    "response": "Yes. Payment runs entirely inside our checkout provider's environment, over an encrypted connection. We never see or store your card details — that data stays with the processor. If anything about the order worries you, email {{SUPPORT_EMAIL}} before paying.",
+    "followup": "Would you like me to explain what happens right after the payment?",
+    "priority": 2
+  },
+  {
+    "id": "price_refundable",
+    "title": "What if it is not for me",
+    "keywords": ["refund", "money back", "cancel", "guarantee", "return"],
+    "patterns": [
+      "can i get a refund", "is there a guarantee", "money back guarantee", "what if i dont like it",
+      "refund policy", "can i cancel", "return policy"
+    ],
+    "response": "Refunds follow the buyer policy of the checkout provider you pay through — the exact window is shown on the checkout page. {{GUARANTEE}} If something is wrong with your order or the files, email {{SUPPORT_EMAIL}} and we will make it right.",
+    "followup": "Would you like the link so you can read the checkout terms?",
+    "priority": 2
+  }
+]
